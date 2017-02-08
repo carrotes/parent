@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.itcuc.base.dao.UserDao">
+	<select id="findByUserId" parameterType="java.lang.String" resultMap="user">
+		SELECT * FROM user WHERE user_id=#{id} and delete_flag!=1
+	</select>
+	
+	
+	<resultMap type="com.itcuc.base.entity.User" id="user">
+		<id column="user_id" property="userId" />
+		<result column="user_account" property="userAccount" />
+		<result column="user_name" property="userName" />
+		<result column="user_email" property="userEmail" />
+		<result column="user_password" property="userPassword" />
+		<result column="user_gender" property="userGender" />
+		<result column="image_id" property="imageId" />
+		<result column="create_time" property="createTime" />
+		<result column="modify_time" property="modifyTime" />
+		<result column="delete_flag" property="deleteFlag" />
+<!-- 		<collection property="followers" ofType="java.lang.String"> -->
+<!-- 			<id column="fo.user_id" property="userId" /> -->
+<!-- 		</collection> -->
+<!-- 		<collection property="funs" ofType="java.lang.String"> -->
+<!-- 			<id column="fu.user_id" property="userId" /> -->
+<!-- 		</collection> -->
+<!-- 		<collection property="friends" ofType="java.lang.String"> -->
+<!-- 			<id column="fr.user_id" property="userId" /> -->
+<!-- 		</collection> -->
+<!-- 		<collection property="roles" ofType="java.lang.String"> -->
+<!-- 			<id column="role_id" property="roleId" /> -->
+<!-- 		</collection> -->
+<!-- 		<collection property="functions" ofType="java.lang.String"> -->
+<!-- 			<id column="function_id" property="functionId" /> -->
+<!-- 		</collection> -->
+	</resultMap>
+</mapper>
