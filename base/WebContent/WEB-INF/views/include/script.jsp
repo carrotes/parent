@@ -12,8 +12,8 @@
 
 
 <script src="${ctxStatic}/assets/js/jquery.validate.min.js"></script>
-<script src="${ctxStatic}/assets/js/jquery.validation.messages_cn.js"></script>
-<script src="${ctxStatic}/assets/js/jquery.validateCustom.js"></script>
+<%-- <script src="${ctxStatic}/assets/js/jquery.validation.messages_cn.js"></script> --%>
+<%-- <script src="${ctxStatic}/assets/js/jquery.validateCustom.js"></script> --%>
 <!-- ace scripts -->
 
 <%--<script src="${ctxStatic}/assets/js/ace-elements.min.js"></script>
@@ -24,19 +24,18 @@
 <script src="${ctxStatic}/assets/js/uncompressed/ace.js"></script>
 
 <!-- sco  -->
-<script src="${ctxStatic}/assets/js/sco/sco.ajax.js"></script>
-<script src="${ctxStatic}/assets/js/sco/sco.modal.js"></script>
-<script src="${ctxStatic}/assets/js/sco/spin.js"></script>
+<%-- <script src="${ctxStatic}/assets/js/sco/sco.ajax.js"></script> --%>
+<%-- <script src="${ctxStatic}/assets/js/sco/sco.modal.js"></script> --%>
+<%-- <script src="${ctxStatic}/assets/js/sco/spin.js"></script> --%>
 
 <!-- jquery form -->
-<script src="${ctxStatic}/assets/js/jquery.form.min.js"></script>
-<script src="${ctxStatic}/assets/js/common/base-server.js" type="text/javascript"></script>
+<%-- <script src="${ctxStatic}/assets/js/jquery.form.min.js"></script> --%>
 
 <script src="${ctxStatic}/assets/js/jquery-ui.min.js"></script>
 <script src="${ctxStatic}/assets/js/jquery.ui.touch-punch.min.js"></script>
 
-<script src="${ctxStatic}/assets/js/jquery-ui-i18n.js"></script>
+<%-- <script src="${ctxStatic}/assets/js/jquery-ui-i18n.js"></script> --%>
 
 <script src="${ctxStatic}/assets/js/date-time/moment.min.js"></script>
 <script src="${ctxStatic}/assets/js/date-time/bootstrap-datetimepicker.min.js"></script>
-<script src="${ctxStatic}/assets/js/date-time/locales/bootstrap-datetimepicker.zh-CN.js"></script>
+<%-- <script src="${ctxStatic}/assets/js/date-time/locales/bootstrap-datetimepicker.zh-CN.js"></script> --%>

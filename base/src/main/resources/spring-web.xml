@@ -14,7 +14,7 @@
 	<!-- 扫描到控制器组件 -->
 	<context:component-scan base-package="com.itcuc.base.web" />
 	<!-- 配置注解版本的 spring-mvc -->
-	<mvc:annotation-driven></mvc:annotation-driven>
+	<mvc:annotation-driven/>
 	<!-- 配置视图解析器 -->
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">

@@ -7,4 +7,12 @@
   </parent>
   <artifactId>base</artifactId>
   <packaging>war</packaging>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.itcuc</groupId>
+  		<artifactId>common-utils</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>

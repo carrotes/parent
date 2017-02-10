@@ -27,8 +27,8 @@
 <!-- ace styles -->
 <link rel="stylesheet" href="${ctxStatic}/assets/css/ace.min.css" />
 <!--messenger-->
-<link rel="stylesheet" href="${ctxStatic}/messenger/css/messenger.css" />
-<link rel="stylesheet" href="${ctxStatic}/messenger/css/messenger-theme-air.css" />
+<%-- <link rel="stylesheet" href="${ctxStatic}/messenger/css/messenger.css" /> --%>
+<%-- <link rel="stylesheet" href="${ctxStatic}/messenger/css/messenger-theme-air.css" /> --%>
 
 
 <!--[if lte IE 9]>
@@ -41,10 +41,8 @@
 <link rel="stylesheet" href="${ctxStatic}/assets/css/ace-ie.min.css" />
 <![endif]-->
 
-<link rel="stylesheet" href="${ctxStatic}/assets/css/bootstrap-datetimepicker.min.css" />
+<%-- <link rel="stylesheet" href="${ctxStatic}/assets/css/bootstrap-datetimepicker.min.css" /> --%>
 
-<!-- 新版本样式增加 By Kalman.CHENG ★ AT 2016-09-18 -->
-<link rel="stylesheet" href="${ctxStatic}/assets/css/newstyle.css" />
 <!--[if !IE]><!-->
 <script type="text/javascript">
     window.jQuery || document.write("<script src='${ctxStatic}/assets/js/jquery.min.js'>"+"<"+"/script>");
