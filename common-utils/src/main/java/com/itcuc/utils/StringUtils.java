@@ -9,9 +9,9 @@ public class StringUtils {
 		        
 	}
 		 
-		 //ÊÔÒ»ÊÔ  ÔÙÊÔÒ»ÊÔ  ÔÙÊÔÒ»ÊÔ  ¡£
+		 //ï¿½ï¿½Ò»ï¿½ï¿½  ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½  ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½  ï¿½ï¿½
 		 /**
-		     * ÑéÖ¤ÓÊÏä
+		     * ï¿½ï¿½Ö¤ï¿½ï¿½ï¿½ï¿½
 		     * @param email
 		     * @return
 		     */
@@ -28,7 +28,7 @@ public class StringUtils {
 		        return flag;
 		    }
 		     
- /* ÑéÖ¤ÊÖ»úºÅÂë
+ /* ï¿½ï¿½Ö¤ï¿½Ö»ï¿½ï¿½ï¿½ï¿½ï¿½
  * @param mobiles
  * @return
   */
@@ -46,7 +46,7 @@ public class StringUtils {
 		    
 		    
  /** 
- * ¹¦ÄÜ£ºÅÐ¶Ï×Ö·û´®ÊÇ·ñÎªÊý×Ö
+ * ï¿½ï¿½ï¿½Ü£ï¿½ï¿½Ð¶ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½Ç·ï¿½Îªï¿½ï¿½ï¿½ï¿½
  * 
  */  
 		  public static boolean isNumer(String str) {  
@@ -60,7 +60,7 @@ public class StringUtils {
 		    }  
 		  
 /*
- *  * ÅÐ¶Ï×Ö·ûÊÇ·ñÎª¿Õ
+ *  * ï¿½Ð¶ï¿½ï¿½Ö·ï¿½ï¿½Ç·ï¿½Îªï¿½ï¿½
 */
 		
 		  public static boolean isNULL(String str){
@@ -75,7 +75,7 @@ public class StringUtils {
 	        }
 	   }
 /*
- * ÑéÖ¤URLµØÖ·
+ * ï¿½ï¿½Ö¤URLï¿½ï¿½Ö·
  * 
  * */		  
 		  public static boolean checkURL(String URL){
@@ -92,7 +92,7 @@ public class StringUtils {
 	
 		  
 /*
- * ÑéÖ¤Éí·ÝÖ¤ºÅÂë
+ * ï¿½ï¿½Ö¤ï¿½ï¿½ï¿½Ö¤ï¿½ï¿½ï¿½ï¿½
  * 
  */
 		  public static boolean checkIDNumber(String IDNumber){
@@ -108,20 +108,20 @@ public class StringUtils {
 		    }		  
 
 /*
- * Êý×Ö×ª»»Îª×Ö·û´®
+ * ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½Îªï¿½Ö·ï¿½ï¿½ï¿½
  */
-		  public static String NumberToString(Num Number){
-			  String s=null;
-		        try{
-		               s=Integer.toString(Number);
-		            }catch(Exception e){
-		               return null;
-		            }
-		        return s;
-		    }		  
+//		  public static String NumberToString(Number Number){
+//			  String s=null;
+//		        try{
+//		               s=Integer.toString(Number);
+//		            }catch(Exception e){
+//		               return null;
+//		            }
+//		        return s;
+//		    }		  
 		  
 /*
- * ×Ö·û´®×ª»»ÎªÕûÊý
+ * ï¿½Ö·ï¿½ï¿½ï¿½×ªï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½
  */
 		  public static int StringToNumber(String str){
 			  int Number=0;
@@ -134,11 +134,11 @@ public class StringUtils {
 		    }	
 		  
 		  /*
-		   * ×Ö·û´®×ª»»Îª¸¡µãÊý
+		   * ï¿½Ö·ï¿½ï¿½ï¿½×ªï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		   */
 		  
 		  /*
-		   * ×Ö·û´®×ª»»Îªdouble
+		   * ï¿½Ö·ï¿½ï¿½ï¿½×ªï¿½ï¿½Îªdouble
 		   */
 		  
 		 
