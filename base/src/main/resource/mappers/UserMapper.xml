@@ -2,26 +2,34 @@
 <!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
  "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
 <mapper namespace="com.itcuc.base.dao.UserDao">
+	<cache type="org.mybatis.caches.ehcache.EhcacheCache">
+		<property name="timeToIdleSeconds" value="3600" /><!--1 hour -->
+		<property name="timeToLiveSeconds" value="3600" /><!--1 hour -->
+		<property name="maxEntriesLocalHeap" value="1000" />
+		<property name="maxEntriesLocalDisk" value="10000000" />
+		<property name="memoryStoreEvictionPolicy" value="LRU" />
+	</cache>
 	<select id="findById" resultMap="user">
-		SELECT * FROM user WHERE user_id=#{id}
+		SELECT * FROM user WHERE
+		user_id=#{id}
 	</select>
 	<insert id="add" parameterType="com.itcuc.base.entity.User">
-		INSERT INTO user 
+		INSERT INTO user
 		(user_id,user_account,user_name,user_email,user_password,user_gender,image_id,create_time,modify_time,delete_flag)
 		VALUES
 		(#{userId},#{userAccount},#{userName},#{userEmail},#{userPassword},#{userGender},#{imageId},#{createTime},#{modifyTime},#{deleteFlag})
 	</insert>
 	<resultMap type="com.itcuc.base.entity.User" id="user">
-		<id column="user_id" property="userId"/>
-		<result column="user_account" property="userAccount"/>
-		<result column="user_name" property="userName"/>
-		<result column="user_email" property="userEmail"/>
-		<result column="user_password" property="userPassword"/>
-		<result column="user_gender" property="userGender"/>
-		<result column="image_id" property="imageId"/>
-		<result column="user_role_id" property="userRoleId"/>
-		<result column="create_time" property="createTime"/>
-		<result column="modify_time" property="modifyTime"/>
-		<result column="delete_flag" property="deleteFlag"/>
+		<id column="user_id" property="userId" />
+		<result column="user_account" property="userAccount" />
+		<result column="user_name" property="userName" />
+		<result column="user_email" property="userEmail" />
+		<result column="user_password" property="userPassword" />
+		<result column="user_gender" property="userGender" />
+		<result column="image_id" property="imageId" />
+		<result column="user_role_id" property="userRoleId" />
+		<result column="create_time" property="createTime" />
+		<result column="modify_time" property="modifyTime" />
+		<result column="delete_flag" property="deleteFlag" />
 	</resultMap>
 </mapper>

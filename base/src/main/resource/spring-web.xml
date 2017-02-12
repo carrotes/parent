@@ -16,8 +16,11 @@
 		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
 		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 	<!-- 扫描到控制器组件 -->
-	<context:component-scan base-package="com.itcuc.base.web" />
-	<context:component-scan base-package="com.itcuc.base.service" />
+	<context:component-scan base-package="com.itcuc"
+		use-default-filters="false">
+		<context:include-filter type="annotation"
+			expression="org.springframework.stereotype.Controller" />
+	</context:component-scan>
 	<!-- 配置注解版本的spring-mvc -->
 	<mvc:annotation-driven />
 	<!-- dispatcherServlet不拦截静态资源(启用默认servlet) -->
