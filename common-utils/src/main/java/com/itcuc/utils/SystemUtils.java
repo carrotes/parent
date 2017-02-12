@@ -1,7 +1,5 @@
 package com.itcuc.utils;
 
-import java.util.UUID;
-
 import org.apache.commons.codec.digest.DigestUtils;
 
 public class SystemUtils {
@@ -9,9 +7,5 @@ public class SystemUtils {
 
 	public static String crypt(String password) {
 		return DigestUtils.md5Hex(DigestUtils.md5Hex(DigestUtils.md5Hex(password + salt)));
-	}
-
-	public static String createID(Class cls) {
-		return UUID.randomUUID().toString();
 	}
 }

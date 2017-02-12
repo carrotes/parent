@@ -25,4 +25,9 @@
 	<mvc:annotation-driven />
 	<!-- dispatcherServlet不拦截静态资源(启用默认servlet) -->
 	<mvc:default-servlet-handler />
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="${web.view.prefix}" />
+		<property name="suffix" value="${web.view.suffix}" />
+	</bean>
 </beans>

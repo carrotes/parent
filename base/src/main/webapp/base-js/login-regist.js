@@ -1,0 +1,17 @@
+$(function(){
+	$("#toForgetPassword").click(function(){
+		$("#login-box").hide();
+		$("#forgot-box").show();
+		$("#signup-box").hide();
+	});
+	$("#toRigist").click(function(){
+		$("#login-box").hide();
+		$("#forgot-box").hide();
+		$("#signup-box").show();
+	});
+	$(".backToLogin").click(function(){
+		$("#login-box").show();
+		$("#forgot-box").hide();
+		$("#signup-box").hide();
+	});
+});

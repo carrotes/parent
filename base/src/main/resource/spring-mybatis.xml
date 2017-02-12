@@ -45,8 +45,8 @@
 	<tx:annotation-driven transaction-manager="txManager" />
 
 	<!-- 扫描service层组件 -->
-	<context:component-scan base-package="com.itcuc">
-		<context:exclude-filter type="annotation"
-			expression="org.springframework.stereotype.Controller" />
+	<context:component-scan base-package="com.itcuc.base.service">
+		<context:include-filter type="annotation"
+			expression="org.springframework.stereotype.Service" />
 	</context:component-scan>
 </beans>

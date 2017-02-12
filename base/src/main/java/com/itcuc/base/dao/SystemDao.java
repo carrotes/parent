@@ -13,4 +13,12 @@ public interface SystemDao {
 	public Image findImageIdByUserId(String id);
 
 	public List<Function> findFunctionsByUserId(String id);
+	
+	public void addFunction(Function function);
+	
+	public void addRole(Role role);
+	
+	public void addImage(Image image);
+	
+	public Image findImageByImageId(String id);
 }

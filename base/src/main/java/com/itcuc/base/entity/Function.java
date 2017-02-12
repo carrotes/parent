@@ -13,11 +13,20 @@ public class Function implements Serializable {
 	private String functionUrl;
 	private Timestamp createTime;
 	private Timestamp modifyTime;
+	private String parentFunctionId;
 	private Integer deleteFlag;
 
 	public Function() {
 		super();
 		// TODO Auto-generated constructor stub
+	}
+
+	public String getParentFunctionId() {
+		return parentFunctionId;
+	}
+
+	public void setParentFunctionId(String parentFunctionId) {
+		this.parentFunctionId = parentFunctionId;
 	}
 
 	public Function(String functionId, String functionName, String functionUrl, Timestamp createTime,

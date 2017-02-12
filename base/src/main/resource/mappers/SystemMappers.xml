@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.itcuc.base.dao.SystemDao">
+
+	<select id="findRolesByUserId" parameterType="string" resultMap="role">
+		SELECT role.* FROM role JOIN user_role ON user_role.role_id =
+		role.role_id
+		JOIN user ON user_role.user_id=#{id}
+		WHERE role.delete_flag!=1
+	</select>
+
+
+	<select id="findFunctionsByUserId" parameterType="string"
+		resultMap="function">
+		SELECT function.* FROM function 
+		JOIN role_function ON
+		role_function.function_id=function.function_id
+		JOIN role ON role.role_id=role_function.role_id
+		JOIN user_role ON user_role.user_id=#{id}
+		WHERE function.delete_flag != 1
+	</select>
+
+	<insert id="addImage" parameterType="com.itcuc.base.entity.Image">
+		INSERT INTO image SET
+		image_id=#{imageId},image_stream=#{imageStream}
+	</insert>
+	<select id="findImageByImageId" parameterType="string"
+		resultMap="image">
+		SELECT * FROM image where image_id=#{id}
+	</select>
+	<resultMap type="com.itcuc.base.entity.Function" id="function">
+		<id column="function_id" property="functionId"/>
+		<result column="function_name" property="functionName"/>
+		<result column="function_url" property="functionUrl"/>
+		<result column="create_time" property="createTime"/>
+		<result column="modify_time" property="modifyTime"/>
+		<result column="delete_flag" property="deleteFlag"/>
+	</resultMap>
+	<resultMap type="com.itcuc.base.entity.Role" id="role">
+		<id column="role_id" property="roleId" />
+		<result column="role_name" property="roleName" />
+		<result column="role_type" property="roleType" />
+		<result column="create_time" property="createTime" />
+		<result column="modify_time" property="modifyTime" />
+	</resultMap>
+	<resultMap type="com.itcuc.base.entity.Image" id="image">
+		<id column="image_id" property="imageId" />
+		<result column="image_stream" property="imageStream" />
+	</resultMap>
+	<resultMap type="com.itcuc.base.entity.User" id="user">
+		<id column="user_id" property="userId" />
+		<result column="user_account" property="userAccount" />
+		<result column="user_name" property="userName" />
+		<result column="user_email" property="userEmail" />
+		<result column="user_password" property="userPassword" />
+		<result column="user_gender" property="userGender" />
+		<result column="image_id" property="imageId" />
+		<result column="user_role_id" property="userRoleId" />
+		<result column="create_time" property="createTime" />
+		<result column="modify_time" property="modifyTime" />
+		<result column="delete_flag" property="deleteFlag" />
+	</resultMap>
+</mapper>

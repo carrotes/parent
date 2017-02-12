@@ -2,7 +2,7 @@ package com.itcuc.base.entity;
 
 import java.io.Serializable;
 
-public class Image implements Serializable{
+public class Image implements Serializable {
 	/**
 	 * 
 	 */
@@ -15,18 +15,18 @@ public class Image implements Serializable{
 		// TODO Auto-generated constructor stub
 	}
 
-	public Image(String imageId, byte[] imageStream) {
-		super();
-		this.imageId = imageId;
-		this.imageStream = imageStream;
-	}
-
 	public String getImageId() {
 		return imageId;
 	}
 
 	public void setImageId(String imageId) {
 		this.imageId = imageId;
+	}
+
+	public Image(String imageId, byte[] imageStream) {
+		super();
+		this.imageId = imageId;
+		this.imageStream = imageStream;
 	}
 
 	public byte[] getImageStream() {
