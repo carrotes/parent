@@ -9,13 +9,13 @@ public class StringUtils {
 		        
 	}
 		 
-		 //��һ��  ����һ��  ����һ��  ��
+		 
 		 /**
-		     * ��֤����
+		     * 验证邮箱
 		     * @param email
 		     * @return
 		     */
-		    public static boolean checkEmail(String email){
+		    public static boolean isEmail(String email){
 		        boolean flag = false;
 		        try{
 		                String check = "^([a-z0-9A-Z]+[-|_|\\.]?)+[a-z0-9A-Z]@([a-z0-9A-Z]+(-[a-z0-9A-Z]+)?\\.)+[a-zA-Z]{2,}$";
@@ -28,11 +28,13 @@ public class StringUtils {
 		        return flag;
 		    }
 		     
- /* ��֤�ֻ�����
+ /*
+  * 验证电话
+  * 
  * @param mobiles
  * @return
   */
-		    public static boolean checkMobileNumber(String mobileNumber){
+		    public static boolean isMobileNumber(String mobileNumber){
 		        boolean flag = false;
 		        try{
 		                Pattern regex = Pattern.compile("^(((13[0-9])|(15([0-3]|[5-9]))|(18[0-9]))\\d{8})|(0\\d{2}-\\d{8})|(0\\d{3}-\\d{7})$");
@@ -46,7 +48,7 @@ public class StringUtils {
 		    
 		    
  /** 
- * ���ܣ��ж��ַ����Ƿ�Ϊ����
+ * 验证字符串是否为数字
  * 
  */  
 		  public static boolean isNumer(String str) {  
@@ -60,7 +62,7 @@ public class StringUtils {
 		    }  
 		  
 /*
- *  * �ж��ַ��Ƿ�Ϊ��
+ *  * 验证字符串是否为空
 */
 		
 		  public static boolean isNULL(String str){
@@ -75,10 +77,10 @@ public class StringUtils {
 	        }
 	   }
 /*
- * ��֤URL��ַ
+ * 验证URLַ
  * 
  * */		  
-		  public static boolean checkURL(String URL){
+		  public static boolean isURL(String URL){
 		        boolean flag = false;
 		        try{
 		                Pattern regex = Pattern.compile( "http(s)?://([\\w-]+\\.)+[\\w-]+(/[\\w- ./?%&=]*)?");
@@ -92,10 +94,10 @@ public class StringUtils {
 	
 		  
 /*
- * ��֤���֤����
+ * 验证身份证
  * 
  */
-		  public static boolean checkIDNumber(String IDNumber){
+		  public static boolean isIDNumber(String IDNumber){
 		        boolean flag = false;
 		        try{
 		                Pattern regex = Pattern.compile("(^\\d{18}$)|(^\\d{15}$)");
@@ -108,20 +110,20 @@ public class StringUtils {
 		    }		  
 
 /*
- * ����ת��Ϊ�ַ���
+ * s数字转换为字符串
  */
-//		  public static String NumberToString(Number Number){
-//			  String s=null;
-//		        try{
-//		               s=Integer.toString(Number);
-//		            }catch(Exception e){
-//		               return null;
-//		            }
-//		        return s;
-//		    }		  
+		  public static String NumberToString(int Number){
+			  String s=null;
+		        try{
+		               s=Integer.toString(Number);
+		            }catch(Exception e){
+		               return null;
+		            }
+		        return s;
+		    }		  
 		  
 /*
- * �ַ���ת��Ϊ����
+ * 字符串转换为整数
  */
 		  public static int StringToNumber(String str){
 			  int Number=0;
@@ -133,13 +135,7 @@ public class StringUtils {
 		        return Number;
 		    }	
 		  
-		  /*
-		   * �ַ���ת��Ϊ������
-		   */
-		  
-		  /*
-		   * �ַ���ת��Ϊdouble
-		   */
+		
 		  
 		 
 }

@@ -15,278 +15,371 @@ public class DateUtils {
 	 }
 	 
 	
-	  //ÊÔÒ»ÊÔ  ¡£
-		
-	/**
-	   * »ñÈ¡ÏÖÔÚÊ±¼ä
-	   * 
-	   * @return·µ»Ø×Ö·û´®¸ñÊ½ yyyy-MM-dd HH:mm:ss
-	   */
-	public static String getStringDatelong() {
-	   Date currentTime = new Date();
-	   SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-	   String dateString = formatter.format(currentTime);
-	   return dateString;
-	}
-	/**
-	   * »ñÈ¡ÏÖÔÚÊ±¼ä
-	   * 
-	   * @return ·µ»Ø¶ÌÊ±¼ä×Ö·û´®¸ñÊ½yyyy-MM-dd
-	   */
-	public static String getStringDateShort() {
-	   Date currentTime = new Date();
-	   SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
-	   String dateString = formatter.format(currentTime);
-	   return dateString;
-	}
-	/**
-	   * »ñÈ¡Ê±¼ä Ğ¡Ê±:·Ö;Ãë HH:mm:ss
-	   * 
-	   * @return
-	   */
-	public static String getTimeShort() {
-	   SimpleDateFormat formatter = new SimpleDateFormat("HH:mm:ss");
-	   Date currentTime = new Date();
-	   String dateString = formatter.format(currentTime);
-	   return dateString;
-	}
-	/**
-	   * ½«³¤Ê±¼ä¸ñÊ½×Ö·û´®×ª»»ÎªÊ±¼ä yyyy-MM-dd HH:mm:ss
-	   * 
-	   * @param strDate
-	   * @return
-	   */
-	public static Date strToDateLong(String strDate) {
-	   SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-	   ParsePosition pos = new ParsePosition(0);
-	   Date strtodate = formatter.parse(strDate, pos);
-	   return strtodate;
-	}
-	/**
-	   * ½«³¤Ê±¼ä¸ñÊ½Ê±¼ä×ª»»Îª×Ö·û´® yyyy-MM-dd HH:mm:ss
-	   * 
-	   * @param dateDate
-	   * @return
-	   */
-	public static String dateToStrLong(java.util.Date dateDate) {
-	   SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-	   String dateString = formatter.format(dateDate);
-	   return dateString;
-	}
-	/**
-	   * ½«¶ÌÊ±¼ä¸ñÊ½Ê±¼ä×ª»»Îª×Ö·û´® yyyy-MM-dd
-	   * 
-	   * @param dateDate
-	   * @param k
-	   * @return
-	   */
-	public static String dateToStr(java.util.Date dateDate) {
-	   SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
-	   String dateString = formatter.format(dateDate);
-	   return dateString;
-	}
-	/**
-	   * ½«¶ÌÊ±¼ä¸ñÊ½×Ö·û´®×ª»»ÎªÊ±¼ä yyyy-MM-dd 
-	   * 
-	   * @param strDate
-	   * @return
-	   */
-	public static Date strToDate(String strDate) {
-	   SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
-	   ParsePosition pos = new ParsePosition(0);
-	   Date strtodate = formatter.parse(strDate, pos);
-	   return strtodate;
-	}
-	/**
-	   * µÃµ½ÏÖÔÚÊ±¼ä
-	   * 
-	   * @return
-	   */
-	public static Date getNow() {
-	   Date currentTime = new Date();
-	   return currentTime;
-	}
-	/**
-	   * ÌáÈ¡Ò»¸öÔÂÖĞµÄ×îºóÒ»Ìì
-	   * 
-	   * @param day
-	   * @return
-	   */
-	public static Date getLastDate(long day) {
-	   Date date = new Date();
-	   long date_3_hm = date.getTime() - 3600000 * 34 * day;
-	   Date date_3_hm_date = new Date(date_3_hm);
-	   return date_3_hm_date;
-	}
-	/**
-	   * µÃµ½ÏÖÔÚÊ±¼ä
-	   * 
-	   * @return ×Ö·û´® yyyyMMdd HHmmss
-	   */
-	public static String getStringToday() {
-	   Date currentTime = new Date();
-	   SimpleDateFormat formatter = new SimpleDateFormat("yyyyMMdd HHmmss");
-	   String dateString = formatter.format(currentTime);
-	   return dateString;
-	}
-	/**
-	   * µÃµ½ÏÖÔÚĞ¡Ê±
-	   */
-	public static String getHour() {
-	   Date currentTime = new Date();
-	   SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-	   String dateString = formatter.format(currentTime);
-	   String hour;
-	   hour = dateString.substring(11, 13);
-	   return hour;
-	}
-	/**
-	   * µÃµ½ÏÖÔÚ·ÖÖÓ
-	   * 
-	   * @return
-	   */
-	public static String getTime() {
-	   Date currentTime = new Date();
-	   SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-	   String dateString = formatter.format(currentTime);
-	   String min;
-	   min = dateString.substring(14, 16);
-	   return min;
-	}
-	
-	
-	/**
-	   * ¸ù¾İÓÃ»§´«ÈëµÄÊ±¼ä±íÊ¾¸ñÊ½£¬·µ»Øµ±Ç°Ê±¼äµÄ¸ñÊ½ Èç¹ûÊÇyyyyMMdd£¬×¢Òâ×ÖÄ¸y²»ÄÜ´óĞ´¡£
-	   * 
-	   * @param sformat
-	   *             yyyyMMddhhmmss
-	   * @return
-	   */
-	public static String getUserDate(String sformat) {
-	   Date currentTime = new Date();
-	   SimpleDateFormat formatter = new SimpleDateFormat(sformat);
-	   String dateString = formatter.format(currentTime);
-	   return dateString;
-	}
-	
-	
-	
-	/**
-	  * µÃµ½Ò»¸öÊ±¼äÑÓºó»òÇ°ÒÆ¼¸ÌìµÄÊ±¼ä,nowdateÎªÊ±¼ä,delayÎªÇ°ÒÆ»òºóÑÓµÄÌìÊı
-	  */
-	 public static String getNextDay(String nowdate, String delay) {
-	  try{
-	  SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
-	  String mdate = "";
-	  Date d = strToDate(nowdate);
-	  long myTime = (d.getTime() / 1000) + Integer.parseInt(delay) * 24 * 60 * 60;
-	  d.setTime(myTime * 1000);
-	  mdate = format.format(d);
-	  return mdate;
-	  }catch(Exception e){
-	   return "";
-	  }
-	 }  
-	 
+	    
 
-	 
-	 /**
-	  * ÅĞ¶ÏÊÇ·ñÈóÄê
-	  * 
-	  * @param ddate
-	  * @return
-	  * 
-	  * ÏêÏ¸Éè¼Æ£º 1.±»400Õû³ıÊÇÈòÄê£¬·ñÔò£º 2.²»ÄÜ±»4Õû³ıÔò²»ÊÇÈòÄê 3.ÄÜ±»4Õû³ıÍ¬Ê±²»ÄÜ±»100Õû³ıÔòÊÇÈòÄê
-	  * 3.ÄÜ±»4Õû³ıÍ¬Ê±ÄÜ±»100Õû³ıÔò²»ÊÇÈòÄê
-	  */
-	  
-	 public static boolean isLeapYear(String ddate) {
+	    
+	    /**
+	     * è·å–ç°åœ¨æ—¶é—´
+	     * 
+	     * @returnè¿”å›å­—ç¬¦ä¸²æ ¼å¼ yyyy-MM-dd HH:mm:ss
+	     */
+	    public static String getStringDate() {
+	     Date currentTime = new Date();
+	     SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+	     String dateString = formatter.format(currentTime);
+	     return dateString;
+	    }
 
-	  Date d = strToDate(ddate);
-	  GregorianCalendar gc = (GregorianCalendar) Calendar.getInstance();
-	  gc.setTime(d);
-	  int year = gc.get(Calendar.YEAR);
-	  if ((year % 400) == 0)
-	   return true;
-	  else if ((year % 4) == 0) {
-	   if ((year % 100) == 0)
-	    return false;
-	   else
-	    return true;
-	  } else
-	   return false;
-	 }
-	 
-	
-	 
-	 /**
-	  * ÅĞ¶Ï¶ş¸öÊ±¼äÊÇ·ñÔÚÍ¬Ò»¸öÖÜ
-	  * 
-	  * @param date1
-	  * @param date2
-	  * @return
-	  */
-	 public static boolean isSameWeekDates(Date date1, Date date2) {
-	  Calendar cal1 = Calendar.getInstance();
-	  Calendar cal2 = Calendar.getInstance();
-	  cal1.setTime(date1);
-	  cal2.setTime(date2);
-	  int subYear = cal1.get(Calendar.YEAR) - cal2.get(Calendar.YEAR);
-	  if (0 == subYear) {
-	   if (cal1.get(Calendar.WEEK_OF_YEAR) == cal2.get(Calendar.WEEK_OF_YEAR))
-	    return true;
-	  } else if (1 == subYear && 11 == cal2.get(Calendar.MONTH)) {
-	   // Èç¹û12ÔÂµÄ×îºóÒ»ÖÜºá¿çÀ´ÄêµÚÒ»ÖÜµÄ»°Ôò×îºóÒ»ÖÜ¼´Ëã×öÀ´ÄêµÄµÚÒ»ÖÜ
-	   if (cal1.get(Calendar.WEEK_OF_YEAR) == cal2.get(Calendar.WEEK_OF_YEAR))
-	    return true;
-	  } else if (-1 == subYear && 11 == cal1.get(Calendar.MONTH)) {
-	   if (cal1.get(Calendar.WEEK_OF_YEAR) == cal2.get(Calendar.WEEK_OF_YEAR))
-	    return true;
-	  }
-	  return false;
-	 }
-	 
+	    
+	    /**
+	     * è·å–ç°åœ¨æ—¶é—´
+	     * 
+	     * @return è¿”å›çŸ­æ—¶é—´å­—ç¬¦ä¸²æ ¼å¼yyyy-MM-dd
+	     */
+	    public static String getStringDateShort() {
+	     Date currentTime = new Date();
+	     SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+	     String dateString = formatter.format(currentTime);
+	     return dateString;
+	    }
 
-	 
-	 /**
-	  * ²úÉúÖÜĞòÁĞ,¼´µÃµ½µ±Ç°Ê±¼äËùÔÚµÄÄê¶ÈÊÇµÚ¼¸ÖÜ
-	  * 
-	  * @return
-	  */
-	 public static String getSeqWeek() {
-	  Calendar c = Calendar.getInstance(Locale.CHINA);
-	  String week = Integer.toString(c.get(Calendar.WEEK_OF_YEAR));
-	  if (week.length() == 1)
-	   week = "0" + week;
-	  String year = Integer.toString(c.get(Calendar.YEAR));
-	  return year + week;
-	 }
-	 
-	 
+	    
+	    /**
+	     * è·å–æ—¶é—´ å°æ—¶:åˆ†;ç§’ HH:mm:ss
+	     * 
+	     * @return
+	     */
+	    public static String getTimeShort() {
+	     SimpleDateFormat formatter = new SimpleDateFormat("HH:mm:ss");
+	     Date currentTime = new Date();
+	     String dateString = formatter.format(currentTime);
+	     return dateString;
+	    }
 
-	 
-	 /**
-	  * Á½¸öÊ±¼äÖ®¼äµÄÌìÊı
-	  * 
-	  * @param date1
-	  * @param date2
-	  * @return
-	  */
-	 public static long getDays(String date1, String date2) {
-	  if (date1 == null || date1.equals(""))
-	   return 0;
-	  if (date2 == null || date2.equals(""))
-	   return 0;
-	  // ×ª»»Îª±ê×¼Ê±¼ä
-	  SimpleDateFormat myFormatter = new SimpleDateFormat("yyyy-MM-dd");
-	  java.util.Date date = null;
-	  java.util.Date mydate = null;
-	  try {
-	   date = myFormatter.parse(date1);
-	   mydate = myFormatter.parse(date2);
-	  } catch (Exception e) {
-	  }
-	  long day = (date.getTime() - mydate.getTime()) / (24 * 60 * 60 * 1000);
-	  return day;
-	 } 
+	    
+	    /**
+	     * å°†é•¿æ—¶é—´æ ¼å¼å­—ç¬¦ä¸²è½¬æ¢ä¸ºæ—¶é—´ yyyy-MM-dd HH:mm:ss
+	     * 
+	     * @param strDate
+	     * @return
+	     */
+	    public static Date strToDateLong(String strDate) {
+	     SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+	     ParsePosition pos = new ParsePosition(0);
+	     Date strtodate = formatter.parse(strDate, pos);
+	     return strtodate;
+	    }
+
+	    
+	    /**
+	     * å°†é•¿æ—¶é—´æ ¼å¼æ—¶é—´è½¬æ¢ä¸ºå­—ç¬¦ä¸² yyyy-MM-dd HH:mm:ss
+	     * 
+	     * @param dateDate
+	     * @return
+	     */
+	    public static String dateToStrLong(java.util.Date dateDate) {
+	     SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+	     String dateString = formatter.format(dateDate);
+	     return dateString;
+	    }
+
+	    
+	    /**
+	     * å°†çŸ­æ—¶é—´æ ¼å¼æ—¶é—´è½¬æ¢ä¸ºå­—ç¬¦ä¸² yyyy-MM-dd
+	     * 
+	     * @param dateDate
+	     * @param k
+	     * @return
+	     */
+	    public static String dateToStr(java.util.Date dateDate) {
+	     SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+	     String dateString = formatter.format(dateDate);
+	     return dateString;
+	    }
+
+	    
+	    /**
+	     * å°†çŸ­æ—¶é—´æ ¼å¼å­—ç¬¦ä¸²è½¬æ¢ä¸ºæ—¶é—´ yyyy-MM-dd 
+	     * 
+	     * @param strDate
+	     * @return
+	     */
+	    public static Date strToDate(String strDate) {
+	     SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+	     ParsePosition pos = new ParsePosition(0);
+	     Date strtodate = formatter.parse(strDate, pos);
+	     return strtodate;
+	    }
+
+	    
+	    /**
+	     * å¾—åˆ°ç°åœ¨æ—¶é—´
+	     * 
+	     * @return
+	     */
+	    public static Date getNow() {
+	     Date currentTime = new Date();
+	     return currentTime;
+	    }
+
+	    
+	    /**
+	     * æå–ä¸€ä¸ªæœˆä¸­çš„æœ€åä¸€å¤©
+	     * 
+	     * @param day
+	     * @return
+	     */
+	    public static Date getLastDate(long day) {
+	     Date date = new Date();
+	     long date_3_hm = date.getTime() - 3600000 * 34 * day;
+	     Date date_3_hm_date = new Date(date_3_hm);
+	     return date_3_hm_date;
+	    }
+
+	    
+	    /**
+	     * å¾—åˆ°ç°åœ¨æ—¶é—´
+	     * 
+	     * @return å­—ç¬¦ä¸² yyyyMMdd HHmmss
+	     */
+	    public static String getStringToday() {
+	     Date currentTime = new Date();
+	     SimpleDateFormat formatter = new SimpleDateFormat("yyyyMMdd HHmmss");
+	     String dateString = formatter.format(currentTime);
+	     return dateString;
+	    }
+
+	    
+	    /**
+	     * å¾—åˆ°ç°åœ¨å°æ—¶
+	     */
+	    public static String getHour() {
+	     Date currentTime = new Date();
+	     SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+	     String dateString = formatter.format(currentTime);
+	     String hour;
+	     hour = dateString.substring(11, 13);
+	     return hour;
+	    }
+
+	    
+	    
+	    /**
+	     * å¾—åˆ°ç°åœ¨åˆ†é’Ÿ
+	     * 
+	     * @return
+	     */
+	    public static String getTime() {
+	     Date currentTime = new Date();
+	     SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+	     String dateString = formatter.format(currentTime);
+	     String min;
+	     min = dateString.substring(14, 16);
+	     return min;
+	    }
+
+	    
+	    
+	    /**
+	     * æ ¹æ®ç”¨æˆ·ä¼ å…¥çš„æ—¶é—´è¡¨ç¤ºæ ¼å¼ï¼Œè¿”å›å½“å‰æ—¶é—´çš„æ ¼å¼ å¦‚æœæ˜¯yyyyMMddï¼Œæ³¨æ„å­—æ¯yä¸èƒ½å¤§å†™ã€‚
+	     * 
+	     * @param sformat
+	     *            yyyyMMddhhmmss
+	     * @return
+	     */
+	    public static String getUserDate(String sformat) {
+	     Date currentTime = new Date();
+	     SimpleDateFormat formatter = new SimpleDateFormat(sformat);
+	     String dateString = formatter.format(currentTime);
+	     return dateString;
+	    }
+
+	    
+	    /**
+	     * äºŒä¸ªå°æ—¶æ—¶é—´é—´çš„å·®å€¼,å¿…é¡»ä¿è¯äºŒä¸ªæ—¶é—´éƒ½æ˜¯"HH:MM"çš„æ ¼å¼ï¼Œè¿”å›å­—ç¬¦å‹çš„åˆ†é’Ÿ
+	     */
+	    public static String getTwoHour(String st1, String st2) {
+	     String[] kk = null;
+	     String[] jj = null;
+	     kk = st1.split(":");
+	     jj = st2.split(":");
+	     if (Integer.parseInt(kk[0]) < Integer.parseInt(jj[0]))
+	      return "0";
+	     else {
+	      double y = Double.parseDouble(kk[0]) + Double.parseDouble(kk[1]) / 60;
+	      double u = Double.parseDouble(jj[0]) + Double.parseDouble(jj[1]) / 60;
+	      if ((y - u) > 0)
+	       return y - u + "";
+	      else
+	       return "0";
+	     }
+	    }
+
+	    
+	    
+	    /**
+	     * å¾—åˆ°äºŒä¸ªæ—¥æœŸé—´çš„é—´éš”å¤©æ•°
+	     */
+	    public static String getTwoDay(String sj1, String sj2) {
+	     SimpleDateFormat myFormatter = new SimpleDateFormat("yyyy-MM-dd");
+	     long day = 0;
+	     try {
+	      java.util.Date date = myFormatter.parse(sj1);
+	      java.util.Date mydate = myFormatter.parse(sj2);
+	      day = (date.getTime() - mydate.getTime()) / (24 * 60 * 60 * 1000);
+	     } catch (Exception e) {
+	      return "";
+	     }
+	     return day + "";
+	    }
+
+	    
+	   
+	    
+
+	    /**
+	     * å¾—åˆ°ä¸€ä¸ªæ—¶é—´å»¶åæˆ–å‰ç§»å‡ å¤©çš„æ—¶é—´,nowdateä¸ºæ—¶é—´,delayä¸ºå‰ç§»æˆ–åå»¶çš„å¤©æ•°
+	     */
+	    public static String getNextDay(String nowdate, String delay) {
+	     try{
+	     SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+	     String mdate = "";
+	     Date d = strToDate(nowdate);
+	     long myTime = (d.getTime() / 1000) + Integer.parseInt(delay) * 24 * 60 * 60;
+	     d.setTime(myTime * 1000);
+	     mdate = format.format(d);
+	     return mdate;
+	     }catch(Exception e){
+	      return "";
+	     }
+	    }
+
+	    
+	    
+	    /**
+	     * åˆ¤æ–­æ˜¯å¦æ¶¦å¹´
+	     * 
+	     * @param ddate
+	     * @return
+	     */
+	    public static boolean isLeapYear(String ddate) {
+
+	     /**
+	      * è¯¦ç»†è®¾è®¡ï¼š 1.è¢«400æ•´é™¤æ˜¯é—°å¹´ï¼Œå¦åˆ™ï¼š 2.ä¸èƒ½è¢«4æ•´é™¤åˆ™ä¸æ˜¯é—°å¹´ 3.èƒ½è¢«4æ•´é™¤åŒæ—¶ä¸èƒ½è¢«100æ•´é™¤åˆ™æ˜¯é—°å¹´
+	      * 3.èƒ½è¢«4æ•´é™¤åŒæ—¶èƒ½è¢«100æ•´é™¤åˆ™ä¸æ˜¯é—°å¹´
+	      */
+	     Date d = strToDate(ddate);
+	     GregorianCalendar gc = (GregorianCalendar) Calendar.getInstance();
+	     gc.setTime(d);
+	     int year = gc.get(Calendar.YEAR);
+	     if ((year % 400) == 0)
+	      return true;
+	     else if ((year % 4) == 0) {
+	      if ((year % 100) == 0)
+	       return false;
+	      else
+	       return true;
+	     } else
+	      return false;
+	    }
+
+	    
+	    
+
+	    /**
+	     * è·å–ä¸€ä¸ªæœˆçš„æœ€åä¸€å¤©
+	     * 
+	     * @param dat
+	     * @return
+	     */
+	    public static String getEndDateOfMonth(String dat) {// yyyy-MM-dd
+	     String str = dat.substring(0, 8);
+	     String month = dat.substring(5, 7);
+	     int mon = Integer.parseInt(month);
+	     if (mon == 1 || mon == 3 || mon == 5 || mon == 7 || mon == 8 || mon == 10 || mon == 12) {
+	      str += "31";
+	     } else if (mon == 4 || mon == 6 || mon == 9 || mon == 11) {
+	      str += "30";
+	     } else {
+	      if (isLeapYear(dat)) {
+	       str += "29";
+	      } else {
+	       str += "28";
+	      }
+	     }
+	     return str;
+	    }
+
+	    
+	    
+	    /**
+	     * åˆ¤æ–­äºŒä¸ªæ—¶é—´æ˜¯å¦åœ¨åŒä¸€ä¸ªå‘¨
+	     * 
+	     * @param date1
+	     * @param date2
+	     * @return
+	     */
+	    public static boolean isSameWeekDates(Date date1, Date date2) {
+	     Calendar cal1 = Calendar.getInstance();
+	     Calendar cal2 = Calendar.getInstance();
+	     cal1.setTime(date1);
+	     cal2.setTime(date2);
+	     int subYear = cal1.get(Calendar.YEAR) - cal2.get(Calendar.YEAR);
+	     if (0 == subYear) {
+	      if (cal1.get(Calendar.WEEK_OF_YEAR) == cal2.get(Calendar.WEEK_OF_YEAR))
+	       return true;
+	     } else if (1 == subYear && 11 == cal2.get(Calendar.MONTH)) {
+	      // å¦‚æœ12æœˆçš„æœ€åä¸€å‘¨æ¨ªè·¨æ¥å¹´ç¬¬ä¸€å‘¨çš„è¯åˆ™æœ€åä¸€å‘¨å³ç®—åšæ¥å¹´çš„ç¬¬ä¸€å‘¨
+	      if (cal1.get(Calendar.WEEK_OF_YEAR) == cal2.get(Calendar.WEEK_OF_YEAR))
+	       return true;
+	     } else if (-1 == subYear && 11 == cal1.get(Calendar.MONTH)) {
+	      if (cal1.get(Calendar.WEEK_OF_YEAR) == cal2.get(Calendar.WEEK_OF_YEAR))
+	       return true;
+	     }
+	     return false;
+	    }
+
+	    
+	    
+	    /**
+	     * äº§ç”Ÿå‘¨åºåˆ—,å³å¾—åˆ°å½“å‰æ—¶é—´æ‰€åœ¨çš„å¹´åº¦æ˜¯ç¬¬å‡ å‘¨
+	     * 
+	     * @return
+	     */
+	    public static String getSeqWeek() {
+	     Calendar c = Calendar.getInstance(Locale.CHINA);
+	     String week = Integer.toString(c.get(Calendar.WEEK_OF_YEAR));
+	     if (week.length() == 1)
+	      week = "0" + week;
+	     String year = Integer.toString(c.get(Calendar.YEAR));
+	     return year + week;
+	    }
+
+	   
+	    
+	    /**
+	     * ä¸¤ä¸ªæ—¶é—´ä¹‹é—´çš„å¤©æ•°
+	     * 
+	     * @param date1
+	     * @param date2
+	     * @return
+	     */
+	    public static long getDays(String date1, String date2) {
+	     if (date1 == null || date1.equals(""))
+	      return 0;
+	     if (date2 == null || date2.equals(""))
+	      return 0;
+	     // è½¬æ¢ä¸ºæ ‡å‡†æ—¶é—´
+	     SimpleDateFormat myFormatter = new SimpleDateFormat("yyyy-MM-dd");
+	     java.util.Date date = null;
+	     java.util.Date mydate = null;
+	     try {
+	      date = myFormatter.parse(date1);
+	      mydate = myFormatter.parse(date2);
+	     } catch (Exception e) {
+	     }
+	     long day = (date.getTime() - mydate.getTime()) / (24 * 60 * 60 * 1000);
+	     return day;
+	    }
+
 	}
