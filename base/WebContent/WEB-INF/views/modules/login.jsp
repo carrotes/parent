@@ -32,11 +32,8 @@
 		<![endif]-->
 
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-
-<!--[if lt IE 9]>
-		<script src="${ctxStatic}/assets/js/html5shiv.js"></script>
-		<script src="${ctxStatic}/assets/js/respond.js"></script>
-		<![endif]-->
+<script src="${ctxBase}/alert/sweetalert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="${ctxBase}/alert/sweetalert.css">
 </head>
 
 <body class="login-layout light-login">
@@ -47,26 +44,25 @@
 					<div class="login-container">
 						<div class="center">
 							<h1>
-								<i class="ace-icon fa fa-terminal green"></i> <span class="orange">carrots</span>
-								<span class="white" id="id-text2">${productName}</span>
+								${logo } <span class="white" id="id-text2">${productName}</span>
 							</h1>
 							<h4 class="blue" id="id-company-text">${copyright}</h4>
 						</div>
 
 						<div class="space-6"></div>
-
 						<div class="position-relative">
 							<div id="login-box"
 								class="login-box visible widget-box no-border">
 								<div class="widget-body">
 									<div class="widget-main">
+									<div class="alert alert-danger hidden" id="wrong"></div>
 										<h4 class="header blue lighter bigger">
 											<i class="ace-icon fa fa-coffee green"></i> 请输入您的用户名和密码
 										</h4>
 
 										<div class="space-6"></div>
 
-										<form action="login" id="login"  method="post">
+										<form action="login" id="login" method="post">
 											<fieldset>
 												<label class="block clearfix"> <span
 													class="block input-icon input-icon-right"> <input
@@ -75,9 +71,8 @@
 												</span>
 												</label> <label class="block clearfix"> <span
 													class="block input-icon input-icon-right"> <input
-														type="password" class="form-control"
-														name="user_password" placeholder="" /> <i
-														class="ace-icon fa fa-lock"></i>
+														type="password" class="form-control" name="user_password"
+														placeholder="" /> <i class="ace-icon fa fa-lock"></i>
 												</span>
 												</label>
 
@@ -89,7 +84,7 @@
 															记住我</span>
 													</label>
 
-													<button type="button"
+													<button type="button" id="loginSubmit"
 														class="width-35 pull-right btn btn-sm btn-primary">
 														<i class="ace-icon fa fa-key"></i> <span
 															class="bigger-110">登录</span>
@@ -136,9 +131,9 @@
 										<form id="resetPassword" action="resetPassword">
 											<fieldset>
 												<label class="block clearfix"> <span
-													class="block input-icon input-icon-right"> <input name="reset_email"
-														type="email" class="form-control" placeholder="邮箱" />
-														<i class="ace-icon fa fa-envelope"></i>
+													class="block input-icon input-icon-right"> <input
+														name="reset_email" type="email" class="form-control"
+														placeholder="邮箱" /> <i class="ace-icon fa fa-envelope"></i>
 												</span>
 												</label>
 
@@ -178,29 +173,28 @@
 										<form id="regist" action="regist" method="post">
 											<fieldset>
 												<label class="block clearfix"> <span
-													class="block input-icon input-icon-right"> <input name="user_email"
-														type="email" class="form-control" placeholder="邮箱" />
-														<i class="ace-icon fa fa-envelope"></i>
+													class="block input-icon input-icon-right"> <input
+														name="user_email" type="email" class="form-control"
+														placeholder="邮箱" /> <i class="ace-icon fa fa-envelope"></i>
 												</span>
 												</label> <label class="block clearfix"> <span
-													class="block input-icon input-icon-right"> <input name="user_account"
-														type="text" class="form-control" placeholder="帐号" />
-														<i class="ace-icon fa fa-user"></i>
+													class="block input-icon input-icon-right"> <input
+														name="user_account" type="text" class="form-control"
+														placeholder="帐号" /> <i class="ace-icon fa fa-user"></i>
 												</span>
 												</label> <label class="block clearfix"> <span
-													class="block input-icon input-icon-right"> <input name="user_password"
-														type="password" class="form-control"
+													class="block input-icon input-icon-right"> <input
+														name="user_password" type="password" class="form-control"
 														placeholder="密码" /> <i class="ace-icon fa fa-lock"></i>
 												</span>
 												</label> <label class="block clearfix"> <span
-													class="block input-icon input-icon-right"> <input name="repeat_password"
-														type="password" class="form-control"
-														placeholder="重复密码" /> <i
+													class="block input-icon input-icon-right"> <input
+														name="repeat_password" type="password"
+														class="form-control" placeholder="重复密码" /> <i
 														class="ace-icon fa fa-retweet"></i>
 												</span>
 												</label> <label class="block"> <input type="checkbox"
-													class="ace" /> <span class="lbl">我接受<a
-														href="#">胡萝卜联盟使用协议</a>
+													class="ace" /> <span class="lbl">我接受<a href="#">胡萝卜联盟使用协议</a>
 												</span>
 												</label>
 
@@ -235,12 +229,12 @@
 						</div>
 						<!-- /.position-relative -->
 
-<!-- 						<div class="navbar-fixed-top align-right"> -->
-<!-- 							<br /> &nbsp; <a id="btn-login-dark" href="#">Dark</a> &nbsp; <span -->
-<!-- 								class="blue">/</span> &nbsp; <a id="btn-login-blur" href="#">Blur</a> -->
-<!-- 							&nbsp; <span class="blue">/</span> &nbsp; <a id="btn-login-light" -->
-<!-- 								href="#">Light</a> &nbsp; &nbsp; &nbsp; -->
-<!-- 						</div> -->
+						<!-- 						<div class="navbar-fixed-top align-right"> -->
+						<!-- 							<br /> &nbsp; <a id="btn-login-dark" href="#">Dark</a> &nbsp; <span -->
+						<!-- 								class="blue">/</span> &nbsp; <a id="btn-login-blur" href="#">Blur</a> -->
+						<!-- 							&nbsp; <span class="blue">/</span> &nbsp; <a id="btn-login-light" -->
+						<!-- 								href="#">Light</a> &nbsp; &nbsp; &nbsp; -->
+						<!-- 						</div> -->
 					</div>
 				</div>
 				<!-- /.col -->
@@ -257,7 +251,7 @@
 	<script type="text/javascript">
 		window.jQuery
 				|| document
-						.write("<script src='${ctxStatic}/assets/js/jquery.js'>"
+						.write("<script src='${ctxBase}/lib/jquery.js'>"
 								+ "<"+"/script>");
 	</script>
 
@@ -312,5 +306,8 @@
 
 		});
 	</script>
+	<script src="${ctxBase}/lib/jquery.form.js"></script>
+	<script src="${ctxBase}/dist/jquery.validate.js"></script>
+	<script src="${ctxBase}/login-regist.js"></script>
 </body>
 </html>

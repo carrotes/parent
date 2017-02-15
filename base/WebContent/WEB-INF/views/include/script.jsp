@@ -43,9 +43,4 @@
 <script src="${ctxStatic}/assets/js/ace/ace.widget-on-reload.js"></script>
 <script src="${ctxStatic}/assets/js/ace/ace.searchbox-autocomplete.js"></script>
 
-<script type="text/javascript">
-	window.jQuery
-			|| document.write("<script src='${ctxStatic}/assets/js/jquery.js'>"
-					+ "<"+"/script>");
-</script>
-
+<%-- <script src="${ctxStatic}/index.jsp"></script> --%>

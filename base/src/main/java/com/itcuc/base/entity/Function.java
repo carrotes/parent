@@ -11,6 +11,8 @@ public class Function implements Serializable {
 	private String functionId;
 	private String functionName;
 	private String functionUrl;
+	private String functionIcon;
+	private Integer functionSortNum;
 	private Timestamp createTime;
 	private Timestamp modifyTime;
 	private String parentFunctionId;
@@ -21,6 +23,29 @@ public class Function implements Serializable {
 		// TODO Auto-generated constructor stub
 	}
 
+	public Function(String functionId, String functionName, String functionUrl, String fucntionIcon,
+			Integer functionSortNum, Timestamp createTime, Timestamp modifyTime, String parentFunctionId,
+			Integer deleteFlag) {
+		super();
+		this.functionId = functionId;
+		this.functionName = functionName;
+		this.functionUrl = functionUrl;
+		this.functionIcon = fucntionIcon;
+		this.functionSortNum = functionSortNum;
+		this.createTime = createTime;
+		this.modifyTime = modifyTime;
+		this.parentFunctionId = parentFunctionId;
+		this.deleteFlag = deleteFlag;
+	}
+
+	public Integer getFunctionSortNum() {
+		return functionSortNum;
+	}
+
+	public void setFunctionSortNum(Integer functionSortNum) {
+		this.functionSortNum = functionSortNum;
+	}
+
 	public String getParentFunctionId() {
 		return parentFunctionId;
 	}
@@ -29,15 +54,12 @@ public class Function implements Serializable {
 		this.parentFunctionId = parentFunctionId;
 	}
 
-	public Function(String functionId, String functionName, String functionUrl, Timestamp createTime,
-			Timestamp modifyTime, Integer deleteFlag) {
-		super();
-		this.functionId = functionId;
-		this.functionName = functionName;
-		this.functionUrl = functionUrl;
-		this.createTime = createTime;
-		this.modifyTime = modifyTime;
-		this.deleteFlag = deleteFlag;
+	public String getFunctionIcon() {
+		return functionIcon;
+	}
+
+	public void setFunctionIcon(String functionIcon) {
+		this.functionIcon = functionIcon;
 	}
 
 	public String getFunctionId() {

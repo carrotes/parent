@@ -29,7 +29,7 @@
 <link rel="stylesheet" href="${ctxStatic}/assets/css/ace.css"
 	class="ace-main-stylesheet" id="main-ace-style" />
 <link rel="stylesheet" href="${ctxStatic}/assets/css/ace-rtl.css" />
-
+<script src='${ctxBase}/lib/jquery.js'></script>
 <!--[if lte IE 9]>
 			<link rel="stylesheet" href="${ctxStatic}/assets/css/ace-part2.css" class="ace-main-stylesheet" />
 		<![endif]-->

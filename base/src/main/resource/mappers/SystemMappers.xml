@@ -3,13 +3,23 @@
  "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
 <mapper namespace="com.itcuc.base.dao.SystemDao">
 
+	<select id="findFunctionListByParentIdAndUserId" resultMap="function">
+		SELECT function.* FROM function 
+		JOIN role_function ON
+		role_function.function_id=function.function_id
+		JOIN role ON role.role_id=role_function.role_id
+		JOIN user_role ON user_role.user_id=#{1}
+		WHERE function.delete_flag != 1 AND function.parent_function_id = #{0}
+	</select>
+	<select id="findImageByUserId" parameterType="string" resultMap="image">
+		SELECT image.* FROM image JOIN user ON user.image_id = image.image_id WHERE user.user_id=#{id}
+	</select>
 	<select id="findRolesByUserId" parameterType="string" resultMap="role">
 		SELECT role.* FROM role JOIN user_role ON user_role.role_id =
 		role.role_id
 		JOIN user ON user_role.user_id=#{id}
 		WHERE role.delete_flag!=1
 	</select>
-
 
 	<select id="findFunctionsByUserId" parameterType="string"
 		resultMap="function">
@@ -18,12 +28,13 @@
 		role_function.function_id=function.function_id
 		JOIN role ON role.role_id=role_function.role_id
 		JOIN user_role ON user_role.user_id=#{id}
-		WHERE function.delete_flag != 1
+		WHERE function.delete_flag != 1 AND (function.parent_function_id = null OR function.parent_function_id  = '')
 	</select>
 
 	<insert id="addImage" parameterType="com.itcuc.base.entity.Image">
 		INSERT INTO image SET
-		image_id=#{imageId},image_stream=#{imageStream}
+		image_id=#{imageId},image_stream=#{imageStream},image_type=#{imageType},image_file_type=#{imageFileType},
+		create_time=#{createTime},modify_time=#{modifyTime},delete_flag=#{deleteFlag}
 	</insert>
 	<select id="findImageByImageId" parameterType="string"
 		resultMap="image">
@@ -33,8 +44,10 @@
 		<id column="function_id" property="functionId"/>
 		<result column="function_name" property="functionName"/>
 		<result column="function_url" property="functionUrl"/>
+		<result column="function_icon" property="functionIcon"/>
 		<result column="create_time" property="createTime"/>
 		<result column="modify_time" property="modifyTime"/>
+		<result column="parent_function_id" property="parentFunctionId"/>
 		<result column="delete_flag" property="deleteFlag"/>
 	</resultMap>
 	<resultMap type="com.itcuc.base.entity.Role" id="role">
@@ -43,10 +56,16 @@
 		<result column="role_type" property="roleType" />
 		<result column="create_time" property="createTime" />
 		<result column="modify_time" property="modifyTime" />
+		<result column="delete_flag" property="deleteFlag"/>
 	</resultMap>
 	<resultMap type="com.itcuc.base.entity.Image" id="image">
 		<id column="image_id" property="imageId" />
 		<result column="image_stream" property="imageStream" />
+		<result column="image_type" property="imageType"/>
+		<result column="image_file_type" property="imageFileType"/>
+		<result column="create_time" property="createTime"/>
+		<result column="modify_time" property="modifyTime"/>
+		<result column="delete_flag" property="deleteFlag"/>
 	</resultMap>
 	<resultMap type="com.itcuc.base.entity.User" id="user">
 		<id column="user_id" property="userId" />

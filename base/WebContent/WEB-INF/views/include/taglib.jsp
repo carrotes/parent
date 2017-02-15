@@ -9,3 +9,5 @@
 <c:set var="ctxImage" value="${pageContext.request.contextPath}/image"/>
 <c:set var="productName" value="${ut:get('productName')}" />
 <c:set var="copyright" value="${ut:get('copyright')}" />
+<c:set var="logo" value="${ut:get('logo')}" />
+<c:set var="year" value="${ut:get('year')}" />

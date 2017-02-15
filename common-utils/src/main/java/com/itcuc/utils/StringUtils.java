@@ -66,8 +66,8 @@ public class StringUtils {
 */
 		
 		  public static boolean isNULL(String str){
-	         
-	         if (str.trim().isEmpty()|str==null)
+	         //这里使用短路或,避免空指针 异常   渣神???
+	         if (str==null || str.trim().isEmpty())
 	         {
 	            return true;
 	         }
@@ -76,6 +76,10 @@ public class StringUtils {
 	           return false;
 	        }
 	   }
+		  
+		  public static boolean isNotNULL(String str){
+			  return !isNULL(str);
+		  }
 /*
  * 验证URLַ
  * 

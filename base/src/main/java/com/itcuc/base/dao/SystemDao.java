@@ -10,7 +10,7 @@ public interface SystemDao {
 
 	public List<Role> findRolesByUserId(String id);
 
-	public Image findImageIdByUserId(String id);
+	public Image findImageByUserId(String id);
 
 	public List<Function> findFunctionsByUserId(String id);
 	
@@ -19,6 +19,8 @@ public interface SystemDao {
 	public void addRole(Role role);
 	
 	public void addImage(Image image);
+	
+	public List<Function> findFunctionListByParentIdAndUserId(String functionId,String userId);
 	
 	public Image findImageByImageId(String id);
 }
