@@ -8,12 +8,14 @@ import com.itcuc.utils.DateUtils;
  *
  * @param <T>
  */
-public class IDUtils<T> {
-	public String createId(T t) {
-		StringBuilder id = new StringBuilder();
-		Class<? extends Object> cls = t.getClass();
-		id.append(cls.getName()).append("_").append(t.hashCode()).append("_")
-				.append(DateUtils.getUserDate("yyyyMMdd"));
-		return id.toString();
+public class IDUtils {
+	
+	public static String createId(Class...classes){
+		StringBuilder sb = new StringBuilder();
+		for(Class c : classes){
+			sb.append(c.getName()).append("_");
+		}
+		sb.append(System.currentTimeMillis());
+		return sb.toString();
 	}
 }

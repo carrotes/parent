@@ -14,11 +14,36 @@
 		<![endif]-->
 <script src="${ctxStatic}/assets/js/jquery-ui.custom.js"></script>
 <script src="${ctxStatic}/assets/js/jquery.ui.touch-punch.js"></script>
+<script src="${ctxStatic}/assets/js/chosen.jquery.js"></script>
+<script src="${ctxStatic}/assets/js/fuelux/fuelux.spinner.js"></script>
+<script src="${ctxStatic}/assets/js/date-time/bootstrap-datepicker.js"></script>
+<script src="${ctxStatic}/assets/js/date-time/bootstrap-timepicker.js"></script>
+<script src="${ctxStatic}/assets/js/date-time/moment.js"></script>
+<script src="${ctxStatic}/assets/js/date-time/daterangepicker.js"></script>
+<script src="${ctxStatic}/assets/js/date-time/bootstrap-datetimepicker.js"></script>
+<script src="${ctxStatic}/assets/js/bootstrap-colorpicker.js"></script>
+<script src="${ctxStatic}/assets/js/jquery.knob.js"></script>
+<script src="${ctxStatic}/assets/js/jquery.autosize.js"></script>
+<script src="${ctxStatic}/assets/js/jquery.inputlimiter.1.3.1.js"></script>
+<script src="${ctxStatic}/assets/js/jquery.maskedinput.js"></script>
+<script src="${ctxStatic}/assets/js/bootstrap-tag.js"></script>
 <script src="${ctxStatic}/assets/js/jquery.easypiechart.js"></script>
 <script src="${ctxStatic}/assets/js/jquery.sparkline.js"></script>
 <script src="${ctxStatic}/assets/js/flot/jquery.flot.js"></script>
 <script src="${ctxStatic}/assets/js/flot/jquery.flot.pie.js"></script>
 <script src="${ctxStatic}/assets/js/flot/jquery.flot.resize.js"></script>
+<script src="${ctxStatic}/assets/js/jquery.bootstrap-duallistbox.js"></script>
+<script src="${ctxStatic}/assets/js/jquery.raty.js"></script>
+<script src="${ctxStatic}/assets/js/bootstrap-multiselect.js"></script>
+<script src="${ctxStatic}/assets/js/select2.js"></script>
+<script src="${ctxStatic}/assets/js/typeahead.jquery.js"></script>
+<script src="${ctxStatic}/assets/js/jquery.validate.js"></script>
+
+<!-- table -->
+<script src="${ctxStatic}/assets/js/dataTables/jquery.dataTables.js"></script>
+<script src="${ctxStatic}/assets/js/dataTables/jquery.dataTables.bootstrap.js"></script>
+<script src="${ctxStatic}/assets/js/dataTables/extensions/TableTools/js/dataTables.tableTools.js"></script>
+<script src="${ctxStatic}/assets/js/dataTables/extensions/ColVis/js/dataTables.colVis.js"></script>
 
 <!-- ace scripts -->
 <script src="${ctxStatic}/assets/js/ace/elements.scroller.js"></script>
@@ -43,4 +68,6 @@
 <script src="${ctxStatic}/assets/js/ace/ace.widget-on-reload.js"></script>
 <script src="${ctxStatic}/assets/js/ace/ace.searchbox-autocomplete.js"></script>
 
+
+<!-- scripts -->
 <%-- <script src="${ctxStatic}/index.jsp"></script> --%>

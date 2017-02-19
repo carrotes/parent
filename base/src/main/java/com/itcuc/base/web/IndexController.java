@@ -47,6 +47,12 @@ public class IndexController {
 			return;
 		}
 	}
+	
+	@RequestMapping("/index.html")
+	public String toIndexHtml(@RequestParam Map<String, String> paramMap, Model model, HttpServletRequest request,
+			HttpServletResponse response, RedirectAttributes attr){
+		return toIndex(paramMap,model,request,response,attr);
+	}
 
 	@RequestMapping("/index")
 	public String toIndex(@RequestParam Map<String, String> paramMap, Model model, HttpServletRequest request,

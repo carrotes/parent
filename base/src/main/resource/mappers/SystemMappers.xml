@@ -2,33 +2,140 @@
 <!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
  "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
 <mapper namespace="com.itcuc.base.dao.SystemDao">
+	<select id="findRolesByFunctionId" parameterType="string"
+		resultMap="role">
+		SELECT role.* FROM role JOIN role_function ON role.role_id =
+		role_function.role_id
+		WHERE role_function.function_id=#{id}
+	</select>
+
+	<select id="findChildByParentId" parameterType="string"
+		resultMap="function">
+		SELECT * FROM function WHERE parent_function_id = #{id} ORDER BY function.function_sort_num
+	</select>
+
+	<select id="findAllParentFunctionsAndRoles" resultType="map">
+		SELECT
+		function.function_id as functionId,
+		function.function_name as
+		functionName,
+		function.function_url as functionUrl,
+		function.function_sort_num as functionAviliable,
+		function.function_icon
+		as functionIcon,
+		role.role_name as roleName,
+		role.role_id as roleId
+		FROM
+		function JOIN role_function ON
+		function.function_id =
+		role_function.function_id
+		JOIN role ON
+		role.role_id =
+		role_function.role_id
+		WHERE function.delete_flag != 1 AND
+		role.delete_flag != 1 AND (function.parent_function_id = null OR
+		function.parent_function_id = '')
+		ORDER BY function.function_sort_num
+	</select>
+
+	<select id="findAllFunctionsAndRolesByParentId" parameterType="string"
+		resultType="map">
+		SELECT
+		function.function_id as functionId,
+		function.function_name as
+		functionName,
+		function.function_url as
+		functionUrl,
+		function.function_sort_num as functionAviliable,
+		function.function_icon
+		as functionIcon,
+		role.role_name as roleName,
+		role.role_id as roleId,
+		FROM
+		function JOIN role_function ON
+		function.function_id =
+		role_function.function_id
+		JOIN role ON
+		role.role_id =
+		role_function.role_id
+		WHERE function.delete_flag != 1 AND
+		role.delete_flag != 1
+		AND function.parent_function_id = #{id}
+		ORDER BY function.function_sort_num
+	</select>
+
+	<select id="findAllParentFunctions" resultMap="function">
+		SELECT * FROM
+		function WHERE (parent_function_id = null OR parent_function_id = '')
+		AND delete_flag != 1
+		ORDER BY function.function_sort_num
+	</select>
+
+	<select id="findAllFunctions" resultMap="function">
+		SELECT * FROM function
+		WHERE delete_flag != -1
+		ORDER BY function.function_sort_num
+	</select>
+
+	<select id="findAllRoles" resultMap="role">
+		SELECT * FROM role WHERE
+		delete_flag != 1
+	</select>
 
 	<select id="findFunctionListByParentIdAndUserId" resultMap="function">
-		SELECT function.* FROM function 
+		SELECT function.* FROM function
 		JOIN role_function ON
 		role_function.function_id=function.function_id
-		JOIN role ON role.role_id=role_function.role_id
-		JOIN user_role ON user_role.user_id=#{1}
-		WHERE function.delete_flag != 1 AND function.parent_function_id = #{0}
+		JOIN
+		role ON
+		role.role_id=role_function.role_id
+		JOIN user_role ON
+		user_role.user_id=#{1}
+		WHERE function.delete_flag != 1 AND
+		function.parent_function_id = #{0} AND function_sort_num != 1 AND
+		role.delete_flag!=1
+		ORDER BY function.function_sort_num
 	</select>
 	<select id="findImageByUserId" parameterType="string" resultMap="image">
-		SELECT image.* FROM image JOIN user ON user.image_id = image.image_id WHERE user.user_id=#{id}
+		SELECT image.* FROM image JOIN user ON user.image_id = image.image_id
+		WHERE user.user_id=#{id}
 	</select>
 	<select id="findRolesByUserId" parameterType="string" resultMap="role">
 		SELECT role.* FROM role JOIN user_role ON user_role.role_id =
 		role.role_id
-		JOIN user ON user_role.user_id=#{id}
-		WHERE role.delete_flag!=1
+		WHERE
+		user_role.user_id=#{id} AND
+		role.delete_flag!=1
 	</select>
-
-	<select id="findFunctionsByUserId" parameterType="string"
+	<select id="findAllFunctionsByUserId" parameterType="string"
 		resultMap="function">
-		SELECT function.* FROM function 
+		SELECT function.* FROM function
 		JOIN role_function ON
 		role_function.function_id=function.function_id
-		JOIN role ON role.role_id=role_function.role_id
-		JOIN user_role ON user_role.user_id=#{id}
-		WHERE function.delete_flag != 1 AND (function.parent_function_id = null OR function.parent_function_id  = '')
+		JOIN
+		role ON
+		role.role_id=role_function.role_id
+		JOIN user_role ON
+		user_role.user_id=#{id}
+		WHERE function.delete_flag != 1 AND
+		role.delete_flag != 1
+		ORDER BY function.function_sort_num
+	</select>
+	<select id="findFunctionsByUserId" parameterType="string"
+		resultMap="function">
+		SELECT function.* FROM function
+		JOIN role_function ON
+		role_function.function_id=function.function_id
+		JOIN
+		role ON
+		role.role_id=role_function.role_id
+		JOIN user_role ON
+		user_role.user_id=#{id}
+		WHERE function.delete_flag != 1 AND
+		function_sort_num != 1 AND (function.parent_function_id = null OR
+		function.parent_function_id = '')
+		AND role.delete_flag != 1
+		ORDER BY function.function_sort_num
 	</select>
 
 	<insert id="addImage" parameterType="com.itcuc.base.entity.Image">
@@ -41,14 +148,16 @@
 		SELECT * FROM image where image_id=#{id}
 	</select>
 	<resultMap type="com.itcuc.base.entity.Function" id="function">
-		<id column="function_id" property="functionId"/>
-		<result column="function_name" property="functionName"/>
-		<result column="function_url" property="functionUrl"/>
-		<result column="function_icon" property="functionIcon"/>
-		<result column="create_time" property="createTime"/>
-		<result column="modify_time" property="modifyTime"/>
-		<result column="parent_function_id" property="parentFunctionId"/>
-		<result column="delete_flag" property="deleteFlag"/>
+		<id column="function_id" property="functionId" />
+		<result column="function_name" property="functionName" />
+		<result column="function_url" property="functionUrl" />
+		<result column="function_icon" property="functionIcon" />
+		<result column="function_sort_num" property="functionSortNum"/>
+		<result column="function_disabled" property="functionDisabled"/>
+		<result column="create_time" property="createTime" />
+		<result column="modify_time" property="modifyTime" />
+		<result column="parent_function_id" property="parentFunctionId" />
+		<result column="delete_flag" property="deleteFlag" />
 	</resultMap>
 	<resultMap type="com.itcuc.base.entity.Role" id="role">
 		<id column="role_id" property="roleId" />
@@ -56,16 +165,16 @@
 		<result column="role_type" property="roleType" />
 		<result column="create_time" property="createTime" />
 		<result column="modify_time" property="modifyTime" />
-		<result column="delete_flag" property="deleteFlag"/>
+		<result column="delete_flag" property="deleteFlag" />
 	</resultMap>
 	<resultMap type="com.itcuc.base.entity.Image" id="image">
 		<id column="image_id" property="imageId" />
 		<result column="image_stream" property="imageStream" />
-		<result column="image_type" property="imageType"/>
-		<result column="image_file_type" property="imageFileType"/>
-		<result column="create_time" property="createTime"/>
-		<result column="modify_time" property="modifyTime"/>
-		<result column="delete_flag" property="deleteFlag"/>
+		<result column="image_type" property="imageType" />
+		<result column="image_file_type" property="imageFileType" />
+		<result column="create_time" property="createTime" />
+		<result column="modify_time" property="modifyTime" />
+		<result column="delete_flag" property="deleteFlag" />
 	</resultMap>
 	<resultMap type="com.itcuc.base.entity.User" id="user">
 		<id column="user_id" property="userId" />

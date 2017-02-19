@@ -1,0 +1,2277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<icons>
+	<li>
+		<i class="ace-icon fa fa-glass"></i>
+		 fa fa-glass
+	</li>
+	<li>
+		<i class="ace-icon fa fa-music"></i>
+		 fa fa-music
+	</li>
+	<li>
+		<i class="ace-icon fa fa-search"></i>
+		 fa fa-search
+	</li>
+	<li>
+		<i class="ace-icon fa fa-envelope-o"></i>
+		 fa fa-envelope-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-heart"></i>
+		 fa fa-heart
+	</li>
+	<li>
+		<i class="ace-icon fa fa-star"></i>
+		 fa fa-star
+	</li>
+	<li>
+		<i class="ace-icon fa fa-star-o"></i>
+		 fa fa-star-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-user"></i>
+		 fa fa-user
+	</li>
+	<li>
+		<i class="ace-icon fa fa-film"></i>
+		 fa fa-film
+	</li>
+	<li>
+		<i class="ace-icon fa fa-th-large"></i>
+		 fa fa-th-large
+	</li>
+	<li>
+		<i class="ace-icon fa fa-th"></i>
+		 fa fa-th
+	</li>
+	<li>
+		<i class="ace-icon fa fa-th-list"></i>
+		 fa fa-th-list
+	</li>
+	<li>
+		<i class="ace-icon fa fa-check"></i>
+		 fa fa-check
+	</li>
+	<li>
+		<i class="ace-icon fa fa-times"></i>
+		 fa fa-times
+	</li>
+	<li>
+		<i class="ace-icon fa fa-search-plus"></i>
+		 fa fa-search-plus
+	</li>
+	<li>
+		<i class="ace-icon fa fa-search-minus"></i>
+		 fa fa-search-minus
+	</li>
+	<li>
+		<i class="ace-icon fa fa-power-off"></i>
+		 fa fa-power-off
+	</li>
+	<li>
+		<i class="ace-icon fa fa-signal"></i>
+		 fa fa-signal
+	</li>
+	<li>
+		<i class="ace-icon fa fa-cog"></i>
+		 fa fa-cog
+	</li>
+	<li>
+		<i class="ace-icon fa fa-trash-o"></i>
+		 fa fa-trash-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-home"></i>
+		 fa fa-home
+	</li>
+	<li>
+		<i class="ace-icon fa fa-file-o"></i>
+		 fa fa-file-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-clock-o"></i>
+		 fa fa-clock-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-road"></i>
+		 fa fa-road
+	</li>
+	<li>
+		<i class="ace-icon fa fa-download"></i>
+		 fa fa-download
+	</li>
+	<li>
+		<i class="ace-icon fa fa-arrow-circle-o-down"></i>
+		 fa fa-arrow-circle-o-down
+	</li>
+	<li>
+		<i class="ace-icon fa fa-arrow-circle-o-up"></i>
+		 fa fa-arrow-circle-o-up
+	</li>
+	<li>
+		<i class="ace-icon fa fa-inbox"></i>
+		 fa fa-inbox
+	</li>
+	<li>
+		<i class="ace-icon fa fa-play-circle-o"></i>
+		 fa fa-play-circle-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-repeat"></i>
+		 fa fa-repeat
+	</li>
+	<li>
+		<i class="ace-icon fa fa-refresh"></i>
+		 fa fa-refresh
+	</li>
+	<li>
+		<i class="ace-icon fa fa-list-alt"></i>
+		 fa fa-list-alt
+	</li>
+	<li>
+		<i class="ace-icon fa fa-lock"></i>
+		 fa fa-lock
+	</li>
+	<li>
+		<i class="ace-icon fa fa-flag"></i>
+		 fa fa-flag
+	</li>
+	<li>
+		<i class="ace-icon fa fa-headphones"></i>
+		 fa fa-headphones
+	</li>
+	<li>
+		<i class="ace-icon fa fa-volume-off"></i>
+		 fa fa-volume-off
+	</li>
+	<li>
+		<i class="ace-icon fa fa-volume-down"></i>
+		 fa fa-volume-down
+	</li>
+	<li>
+		<i class="ace-icon fa fa-volume-up"></i>
+		 fa fa-volume-up
+	</li>
+	<li>
+		<i class="ace-icon fa fa-qrcode"></i>
+		 fa fa-qrcode
+	</li>
+	<li>
+		<i class="ace-icon fa fa-barcode"></i>
+		 fa fa-barcode
+	</li>
+	<li>
+		<i class="ace-icon fa fa-tag"></i>
+		 fa fa-tag
+	</li>
+	<li>
+		<i class="ace-icon fa fa-tags"></i>
+		 fa fa-tags
+	</li>
+	<li>
+		<i class="ace-icon fa fa-book"></i>
+		 fa fa-book
+	</li>
+	<li>
+		<i class="ace-icon fa fa-bookmark"></i>
+		 fa fa-bookmark
+	</li>
+	<li>
+		<i class="ace-icon fa fa-print"></i>
+		 fa fa-print
+	</li>
+	<li>
+		<i class="ace-icon fa fa-camera"></i>
+		 fa fa-camera
+	</li>
+	<li>
+		<i class="ace-icon fa fa-font"></i>
+		 fa fa-font
+	</li>
+	<li>
+		<i class="ace-icon fa fa-bold"></i>
+		 fa fa-bold
+	</li>
+	<li>
+		<i class="ace-icon fa fa-italic"></i>
+		 fa fa-italic
+	</li>
+	<li>
+		<i class="ace-icon fa fa-text-height"></i>
+		 fa fa-text-height
+	</li>
+	<li>
+		<i class="ace-icon fa fa-text-width"></i>
+		 fa fa-text-width
+	</li>
+	<li>
+		<i class="ace-icon fa fa-align-left"></i>
+		 fa fa-align-left
+	</li>
+	<li>
+		<i class="ace-icon fa fa-align-center"></i>
+		 fa fa-align-center
+	</li>
+	<li>
+		<i class="ace-icon fa fa-align-right"></i>
+		 fa fa-align-right
+	</li>
+	<li>
+		<i class="ace-icon fa fa-align-justify"></i>
+		 fa fa-align-justify
+	</li>
+	<li>
+		<i class="ace-icon fa fa-list"></i>
+		 fa fa-list
+	</li>
+	<li>
+		<i class="ace-icon fa fa-outdent"></i>
+		 fa fa-outdent
+	</li>
+	<li>
+		<i class="ace-icon fa fa-indent"></i>
+		 fa fa-indent
+	</li>
+	<li>
+		<i class="ace-icon fa fa-video-camera"></i>
+		 fa fa-video-camera
+	</li>
+	<li>
+		<i class="ace-icon fa fa-picture-o"></i>
+		 fa fa-picture-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-pencil"></i>
+		 fa fa-pencil
+	</li>
+	<li>
+		<i class="ace-icon fa fa-map-marker"></i>
+		 fa fa-map-marker
+	</li>
+	<li>
+		<i class="ace-icon fa fa-adjust"></i>
+		 fa fa-adjust
+	</li>
+	<li>
+		<i class="ace-icon fa fa-tint"></i>
+		 fa fa-tint
+	</li>
+	<li>
+		<i class="ace-icon fa fa-pencil-square-o"></i>
+		 fa fa-pencil-square-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-share-square-o"></i>
+		 fa fa-share-square-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-check-square-o"></i>
+		 fa fa-check-square-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-arrows"></i>
+		 fa fa-arrows
+	</li>
+	<li>
+		<i class="ace-icon fa fa-step-backward"></i>
+		 fa fa-step-backward
+	</li>
+	<li>
+		<i class="ace-icon fa fa-fast-backward"></i>
+		 fa fa-fast-backward
+	</li>
+	<li>
+		<i class="ace-icon fa fa-backward"></i>
+		 fa fa-backward
+	</li>
+	<li>
+		<i class="ace-icon fa fa-play"></i>
+		 fa fa-play
+	</li>
+	<li>
+		<i class="ace-icon fa fa-pause"></i>
+		 fa fa-pause
+	</li>
+	<li>
+		<i class="ace-icon fa fa-stop"></i>
+		 fa fa-stop
+	</li>
+	<li>
+		<i class="ace-icon fa fa-forward"></i>
+		 fa fa-forward
+	</li>
+	<li>
+		<i class="ace-icon fa fa-fast-forward"></i>
+		 fa fa-fast-forward
+	</li>
+	<li>
+		<i class="ace-icon fa fa-step-forward"></i>
+		 fa fa-step-forward
+	</li>
+	<li>
+		<i class="ace-icon fa fa-eject"></i>
+		 fa fa-eject
+	</li>
+	<li>
+		<i class="ace-icon fa fa-chevron-left"></i>
+		 fa fa-chevron-left
+	</li>
+	<li>
+		<i class="ace-icon fa fa-chevron-right"></i>
+		 fa fa-chevron-right
+	</li>
+	<li>
+		<i class="ace-icon fa fa-plus-circle"></i>
+		 fa fa-plus-circle
+	</li>
+	<li>
+		<i class="ace-icon fa fa-minus-circle"></i>
+		 fa fa-minus-circle
+	</li>
+	<li>
+		<i class="ace-icon fa fa-times-circle"></i>
+		 fa fa-times-circle
+	</li>
+	<li>
+		<i class="ace-icon fa fa-check-circle"></i>
+		 fa fa-check-circle
+	</li>
+	<li>
+		<i class="ace-icon fa fa-question-circle"></i>
+		 fa fa-question-circle
+	</li>
+	<li>
+		<i class="ace-icon fa fa-info-circle"></i>
+		 fa fa-info-circle
+	</li>
+	<li>
+		<i class="ace-icon fa fa-crosshairs"></i>
+		 fa fa-crosshairs
+	</li>
+	<li>
+		<i class="ace-icon fa fa-times-circle-o"></i>
+		 fa fa-times-circle-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-check-circle-o"></i>
+		 fa fa-check-circle-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-ban"></i>
+		 fa fa-ban
+	</li>
+	<li>
+		<i class="ace-icon fa fa-arrow-left"></i>
+		 fa fa-arrow-left
+	</li>
+	<li>
+		<i class="ace-icon fa fa-arrow-right"></i>
+		 fa fa-arrow-right
+	</li>
+	<li>
+		<i class="ace-icon fa fa-arrow-up"></i>
+		 fa fa-arrow-up
+	</li>
+	<li>
+		<i class="ace-icon fa fa-arrow-down"></i>
+		 fa fa-arrow-down
+	</li>
+	<li>
+		<i class="ace-icon fa fa-share"></i>
+		 fa fa-share
+	</li>
+	<li>
+		<i class="ace-icon fa fa-expand"></i>
+		 fa fa-expand
+	</li>
+	<li>
+		<i class="ace-icon fa fa-compress"></i>
+		 fa fa-compress
+	</li>
+	<li>
+		<i class="ace-icon fa fa-plus"></i>
+		 fa fa-plus
+	</li>
+	<li>
+		<i class="ace-icon fa fa-minus"></i>
+		 fa fa-minus
+	</li>
+	<li>
+		<i class="ace-icon fa fa-asterisk"></i>
+		 fa fa-asterisk
+	</li>
+	<li>
+		<i class="ace-icon fa fa-exclamation-circle"></i>
+		 fa fa-exclamation-circle
+	</li>
+	<li>
+		<i class="ace-icon fa fa-gift"></i>
+		 fa fa-gift
+	</li>
+	<li>
+		<i class="ace-icon fa fa-leaf"></i>
+		 fa fa-leaf
+	</li>
+	<li>
+		<i class="ace-icon fa fa-fire"></i>
+		 fa fa-fire
+	</li>
+	<li>
+		<i class="ace-icon fa fa-eye"></i>
+		 fa fa-eye
+	</li>
+	<li>
+		<i class="ace-icon fa fa-eye-slash"></i>
+		 fa fa-eye-slash
+	</li>
+	<li>
+		<i class="ace-icon fa fa-exclamation-triangle"></i>
+		 fa fa-exclamation-triangle
+	</li>
+	<li>
+		<i class="ace-icon fa fa-plane"></i>
+		 fa fa-plane
+	</li>
+	<li>
+		<i class="ace-icon fa fa-calendar"></i>
+		 fa fa-calendar
+	</li>
+	<li>
+		<i class="ace-icon fa fa-random"></i>
+		 fa fa-random
+	</li>
+	<li>
+		<i class="ace-icon fa fa-comment"></i>
+		 fa fa-comment
+	</li>
+	<li>
+		<i class="ace-icon fa fa-magnet"></i>
+		 fa fa-magnet
+	</li>
+	<li>
+		<i class="ace-icon fa fa-chevron-up"></i>
+		 fa fa-chevron-up
+	</li>
+	<li>
+		<i class="ace-icon fa fa-chevron-down"></i>
+		 fa fa-chevron-down
+	</li>
+	<li>
+		<i class="ace-icon fa fa-retweet"></i>
+		 fa fa-retweet
+	</li>
+	<li>
+		<i class="ace-icon fa fa-shopping-cart"></i>
+		 fa fa-shopping-cart
+	</li>
+	<li>
+		<i class="ace-icon fa fa-folder"></i>
+		 fa fa-folder
+	</li>
+	<li>
+		<i class="ace-icon fa fa-folder-open"></i>
+		 fa fa-folder-open
+	</li>
+	<li>
+		<i class="ace-icon fa fa-arrows-v"></i>
+		 fa fa-arrows-v
+	</li>
+	<li>
+		<i class="ace-icon fa fa-arrows-h"></i>
+		 fa fa-arrows-h
+	</li>
+	<li>
+		<i class="ace-icon fa fa-twitter-square"></i>
+		 fa fa-twitter-square
+	</li>
+	<li>
+		<i class="ace-icon fa fa-facebook-square"></i>
+		 fa fa-facebook-square
+	</li>
+	<li>
+		<i class="ace-icon fa fa-camera-retro"></i>
+		 fa fa-camera-retro
+	</li>
+	<li>
+		<i class="ace-icon fa fa-key"></i>
+		 fa fa-key
+	</li>
+	<li>
+		<i class="ace-icon fa fa-cogs"></i>
+		 fa fa-cogs
+	</li>
+	<li>
+		<i class="ace-icon fa fa-comments"></i>
+		 fa fa-comments
+	</li>
+	<li>
+		<i class="ace-icon fa fa-thumbs-o-up"></i>
+		 fa fa-thumbs-o-up
+	</li>
+	<li>
+		<i class="ace-icon fa fa-thumbs-o-down"></i>
+		 fa fa-thumbs-o-down
+	</li>
+	<li>
+		<i class="ace-icon fa fa-star-half"></i>
+		 fa fa-star-half
+	</li>
+	<li>
+		<i class="ace-icon fa fa-heart-o"></i>
+		 fa fa-heart-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-sign-out"></i>
+		 fa fa-sign-out
+	</li>
+	<li>
+		<i class="ace-icon fa fa-linkedin-square"></i>
+		 fa fa-linkedin-square
+	</li>
+	<li>
+		<i class="ace-icon fa fa-thumb-tack"></i>
+		 fa fa-thumb-tack
+	</li>
+	<li>
+		<i class="ace-icon fa fa-external-link"></i>
+		 fa fa-external-link
+	</li>
+	<li>
+		<i class="ace-icon fa fa-sign-in"></i>
+		 fa fa-sign-in
+	</li>
+	<li>
+		<i class="ace-icon fa fa-trophy"></i>
+		 fa fa-trophy
+	</li>
+	<li>
+		<i class="ace-icon fa fa-github-square"></i>
+		 fa fa-github-square
+	</li>
+	<li>
+		<i class="ace-icon fa fa-upload"></i>
+		 fa fa-upload
+	</li>
+	<li>
+		<i class="ace-icon fa fa-lemon-o"></i>
+		 fa fa-lemon-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-phone"></i>
+		 fa fa-phone
+	</li>
+	<li>
+		<i class="ace-icon fa fa-square-o"></i>
+		 fa fa-square-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-bookmark-o"></i>
+		 fa fa-bookmark-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-phone-square"></i>
+		 fa fa-phone-square
+	</li>
+	<li>
+		<i class="ace-icon fa fa-twitter"></i>
+		 fa fa-twitter
+	</li>
+	<li>
+		<i class="ace-icon fa fa-facebook"></i>
+		 fa fa-facebook
+	</li>
+	<li>
+		<i class="ace-icon fa fa-github"></i>
+		 fa fa-github
+	</li>
+	<li>
+		<i class="ace-icon fa fa-unlock"></i>
+		 fa fa-unlock
+	</li>
+	<li>
+		<i class="ace-icon fa fa-credit-card"></i>
+		 fa fa-credit-card
+	</li>
+	<li>
+		<i class="ace-icon fa fa-rss"></i>
+		 fa fa-rss
+	</li>
+	<li>
+		<i class="ace-icon fa fa-hdd-o"></i>
+		 fa fa-hdd-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-bullhorn"></i>
+		 fa fa-bullhorn
+	</li>
+	<li>
+		<i class="ace-icon fa fa-bell"></i>
+		 fa fa-bell
+	</li>
+	<li>
+		<i class="ace-icon fa fa-certificate"></i>
+		 fa fa-certificate
+	</li>
+	<li>
+		<i class="ace-icon fa fa-hand-o-right"></i>
+		 fa fa-hand-o-right
+	</li>
+	<li>
+		<i class="ace-icon fa fa-hand-o-left"></i>
+		 fa fa-hand-o-left
+	</li>
+	<li>
+		<i class="ace-icon fa fa-hand-o-up"></i>
+		 fa fa-hand-o-up
+	</li>
+	<li>
+		<i class="ace-icon fa fa-hand-o-down"></i>
+		 fa fa-hand-o-down
+	</li>
+	<li>
+		<i class="ace-icon fa fa-arrow-circle-left"></i>
+		 fa fa-arrow-circle-left
+	</li>
+	<li>
+		<i class="ace-icon fa fa-arrow-circle-right"></i>
+		 fa fa-arrow-circle-right
+	</li>
+	<li>
+		<i class="ace-icon fa fa-arrow-circle-up"></i>
+		 fa fa-arrow-circle-up
+	</li>
+	<li>
+		<i class="ace-icon fa fa-arrow-circle-down"></i>
+		 fa fa-arrow-circle-down
+	</li>
+	<li>
+		<i class="ace-icon fa fa-globe"></i>
+		 fa fa-globe
+	</li>
+	<li>
+		<i class="ace-icon fa fa-wrench"></i>
+		 fa fa-wrench
+	</li>
+	<li>
+		<i class="ace-icon fa fa-tasks"></i>
+		 fa fa-tasks
+	</li>
+	<li>
+		<i class="ace-icon fa fa-filter"></i>
+		 fa fa-filter
+	</li>
+	<li>
+		<i class="ace-icon fa fa-briefcase"></i>
+		 fa fa-briefcase
+	</li>
+	<li>
+		<i class="ace-icon fa fa-arrows-alt"></i>
+		 fa fa-arrows-alt
+	</li>
+	<li>
+		<i class="ace-icon fa fa-users"></i>
+		 fa fa-users
+	</li>
+	<li>
+		<i class="ace-icon fa fa-link"></i>
+		 fa fa-link
+	</li>
+	<li>
+		<i class="ace-icon fa fa-cloud"></i>
+		 fa fa-cloud
+	</li>
+	<li>
+		<i class="ace-icon fa fa-flask"></i>
+		 fa fa-flask
+	</li>
+	<li>
+		<i class="ace-icon fa fa-scissors"></i>
+		 fa fa-scissors
+	</li>
+	<li>
+		<i class="ace-icon fa fa-files-o"></i>
+		 fa fa-files-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-paperclip"></i>
+		 fa fa-paperclip
+	</li>
+	<li>
+		<i class="ace-icon fa fa-floppy-o"></i>
+		 fa fa-floppy-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-square"></i>
+		 fa fa-square
+	</li>
+	<li>
+		<i class="ace-icon fa fa-bars"></i>
+		 fa fa-bars
+	</li>
+	<li>
+		<i class="ace-icon fa fa-list-ul"></i>
+		 fa fa-list-ul
+	</li>
+	<li>
+		<i class="ace-icon fa fa-list-ol"></i>
+		 fa fa-list-ol
+	</li>
+	<li>
+		<i class="ace-icon fa fa-strikethrough"></i>
+		 fa fa-strikethrough
+	</li>
+	<li>
+		<i class="ace-icon fa fa-underline"></i>
+		 fa fa-underline
+	</li>
+	<li>
+		<i class="ace-icon fa fa-table"></i>
+		 fa fa-table
+	</li>
+	<li>
+		<i class="ace-icon fa fa-magic"></i>
+		 fa fa-magic
+	</li>
+	<li>
+		<i class="ace-icon fa fa-truck"></i>
+		 fa fa-truck
+	</li>
+	<li>
+		<i class="ace-icon fa fa-pinterest"></i>
+		 fa fa-pinterest
+	</li>
+	<li>
+		<i class="ace-icon fa fa-pinterest-square"></i>
+		 fa fa-pinterest-square
+	</li>
+	<li>
+		<i class="ace-icon fa fa-google-plus-square"></i>
+		 fa fa-google-plus-square
+	</li>
+	<li>
+		<i class="ace-icon fa fa-google-plus"></i>
+		 fa fa-google-plus
+	</li>
+	<li>
+		<i class="ace-icon fa fa-money"></i>
+		 fa fa-money
+	</li>
+	<li>
+		<i class="ace-icon fa fa-caret-down"></i>
+		 fa fa-caret-down
+	</li>
+	<li>
+		<i class="ace-icon fa fa-caret-up"></i>
+		 fa fa-caret-up
+	</li>
+	<li>
+		<i class="ace-icon fa fa-caret-left"></i>
+		 fa fa-caret-left
+	</li>
+	<li>
+		<i class="ace-icon fa fa-caret-right"></i>
+		 fa fa-caret-right
+	</li>
+	<li>
+		<i class="ace-icon fa fa-columns"></i>
+		 fa fa-columns
+	</li>
+	<li>
+		<i class="ace-icon fa fa-sort"></i>
+		 fa fa-sort
+	</li>
+	<li>
+		<i class="ace-icon fa fa-sort-desc"></i>
+		 fa fa-sort-desc
+	</li>
+	<li>
+		<i class="ace-icon fa fa-sort-asc"></i>
+		 fa fa-sort-asc
+	</li>
+	<li>
+		<i class="ace-icon fa fa-envelope"></i>
+		 fa fa-envelope
+	</li>
+	<li>
+		<i class="ace-icon fa fa-linkedin"></i>
+		 fa fa-linkedin
+	</li>
+	<li>
+		<i class="ace-icon fa fa-undo"></i>
+		 fa fa-undo
+	</li>
+	<li>
+		<i class="ace-icon fa fa-gavel"></i>
+		 fa fa-gavel
+	</li>
+	<li>
+		<i class="ace-icon fa fa-tachometer"></i>
+		 fa fa-tachometer
+	</li>
+	<li>
+		<i class="ace-icon fa fa-comment-o"></i>
+		 fa fa-comment-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-comments-o"></i>
+		 fa fa-comments-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-bolt"></i>
+		 fa fa-bolt
+	</li>
+	<li>
+		<i class="ace-icon fa fa-sitemap"></i>
+		 fa fa-sitemap
+	</li>
+	<li>
+		<i class="ace-icon fa fa-umbrella"></i>
+		 fa fa-umbrella
+	</li>
+	<li>
+		<i class="ace-icon fa fa-clipboard"></i>
+		 fa fa-clipboard
+	</li>
+	<li>
+		<i class="ace-icon fa fa-lightbulb-o"></i>
+		 fa fa-lightbulb-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-exchange"></i>
+		 fa fa-exchange
+	</li>
+	<li>
+		<i class="ace-icon fa fa-cloud-download"></i>
+		 fa fa-cloud-download
+	</li>
+	<li>
+		<i class="ace-icon fa fa-cloud-upload"></i>
+		 fa fa-cloud-upload
+	</li>
+	<li>
+		<i class="ace-icon fa fa-user-md"></i>
+		 fa fa-user-md
+	</li>
+	<li>
+		<i class="ace-icon fa fa-stethoscope"></i>
+		 fa fa-stethoscope
+	</li>
+	<li>
+		<i class="ace-icon fa fa-suitcase"></i>
+		 fa fa-suitcase
+	</li>
+	<li>
+		<i class="ace-icon fa fa-bell-o"></i>
+		 fa fa-bell-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-coffee"></i>
+		 fa fa-coffee
+	</li>
+	<li>
+		<i class="ace-icon fa fa-cutlery"></i>
+		 fa fa-cutlery
+	</li>
+	<li>
+		<i class="ace-icon fa fa-file-text-o"></i>
+		 fa fa-file-text-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-building-o"></i>
+		 fa fa-building-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-hospital-o"></i>
+		 fa fa-hospital-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-ambulance"></i>
+		 fa fa-ambulance
+	</li>
+	<li>
+		<i class="ace-icon fa fa-medkit"></i>
+		 fa fa-medkit
+	</li>
+	<li>
+		<i class="ace-icon fa fa-fighter-jet"></i>
+		 fa fa-fighter-jet
+	</li>
+	<li>
+		<i class="ace-icon fa fa-beer"></i>
+		 fa fa-beer
+	</li>
+	<li>
+		<i class="ace-icon fa fa-h-square"></i>
+		 fa fa-h-square
+	</li>
+	<li>
+		<i class="ace-icon fa fa-plus-square"></i>
+		 fa fa-plus-square
+	</li>
+	<li>
+		<i class="ace-icon fa fa-angle-double-left"></i>
+		 fa fa-angle-double-left
+	</li>
+	<li>
+		<i class="ace-icon fa fa-angle-double-right"></i>
+		 fa fa-angle-double-right
+	</li>
+	<li>
+		<i class="ace-icon fa fa-angle-double-up"></i>
+		 fa fa-angle-double-up
+	</li>
+	<li>
+		<i class="ace-icon fa fa-angle-double-down"></i>
+		 fa fa-angle-double-down
+	</li>
+	<li>
+		<i class="ace-icon fa fa-angle-left"></i>
+		 fa fa-angle-left
+	</li>
+	<li>
+		<i class="ace-icon fa fa-angle-right"></i>
+		 fa fa-angle-right
+	</li>
+	<li>
+		<i class="ace-icon fa fa-angle-up"></i>
+		 fa fa-angle-up
+	</li>
+	<li>
+		<i class="ace-icon fa fa-angle-down"></i>
+		 fa fa-angle-down
+	</li>
+	<li>
+		<i class="ace-icon fa fa-desktop"></i>
+		 fa fa-desktop
+	</li>
+	<li>
+		<i class="ace-icon fa fa-laptop"></i>
+		 fa fa-laptop
+	</li>
+	<li>
+		<i class="ace-icon fa fa-tablet"></i>
+		 fa fa-tablet
+	</li>
+	<li>
+		<i class="ace-icon fa fa-mobile"></i>
+		 fa fa-mobile
+	</li>
+	<li>
+		<i class="ace-icon fa fa-circle-o"></i>
+		 fa fa-circle-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-quote-left"></i>
+		 fa fa-quote-left
+	</li>
+	<li>
+		<i class="ace-icon fa fa-quote-right"></i>
+		 fa fa-quote-right
+	</li>
+	<li>
+		<i class="ace-icon fa fa-spinner"></i>
+		 fa fa-spinner
+	</li>
+	<li>
+		<i class="ace-icon fa fa-circle"></i>
+		 fa fa-circle
+	</li>
+	<li>
+		<i class="ace-icon fa fa-reply"></i>
+		 fa fa-reply
+	</li>
+	<li>
+		<i class="ace-icon fa fa-github-alt"></i>
+		 fa fa-github-alt
+	</li>
+	<li>
+		<i class="ace-icon fa fa-folder-o"></i>
+		 fa fa-folder-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-folder-open-o"></i>
+		 fa fa-folder-open-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-smile-o"></i>
+		 fa fa-smile-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-frown-o"></i>
+		 fa fa-frown-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-meh-o"></i>
+		 fa fa-meh-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-gamepad"></i>
+		 fa fa-gamepad
+	</li>
+	<li>
+		<i class="ace-icon fa fa-keyboard-o"></i>
+		 fa fa-keyboard-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-flag-o"></i>
+		 fa fa-flag-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-flag-checkered"></i>
+		 fa fa-flag-checkered
+	</li>
+	<li>
+		<i class="ace-icon fa fa-terminal"></i>
+		 fa fa-terminal
+	</li>
+	<li>
+		<i class="ace-icon fa fa-code"></i>
+		 fa fa-code
+	</li>
+	<li>
+		<i class="ace-icon fa fa-reply-all"></i>
+		 fa fa-reply-all
+	</li>
+	<li>
+		<i class="ace-icon fa fa-star-half-o"></i>
+		 fa fa-star-half-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-location-arrow"></i>
+		 fa fa-location-arrow
+	</li>
+	<li>
+		<i class="ace-icon fa fa-crop"></i>
+		 fa fa-crop
+	</li>
+	<li>
+		<i class="ace-icon fa fa-code-fork"></i>
+		 fa fa-code-fork
+	</li>
+	<li>
+		<i class="ace-icon fa fa-chain-broken"></i>
+		 fa fa-chain-broken
+	</li>
+	<li>
+		<i class="ace-icon fa fa-question"></i>
+		 fa fa-question
+	</li>
+	<li>
+		<i class="ace-icon fa fa-info"></i>
+		 fa fa-info
+	</li>
+	<li>
+		<i class="ace-icon fa fa-exclamation"></i>
+		 fa fa-exclamation
+	</li>
+	<li>
+		<i class="ace-icon fa fa-superscript"></i>
+		 fa fa-superscript
+	</li>
+	<li>
+		<i class="ace-icon fa fa-subscript"></i>
+		 fa fa-subscript
+	</li>
+	<li>
+		<i class="ace-icon fa fa-eraser"></i>
+		 fa fa-eraser
+	</li>
+	<li>
+		<i class="ace-icon fa fa-puzzle-piece"></i>
+		 fa fa-puzzle-piece
+	</li>
+	<li>
+		<i class="ace-icon fa fa-microphone"></i>
+		 fa fa-microphone
+	</li>
+	<li>
+		<i class="ace-icon fa fa-microphone-slash"></i>
+		 fa fa-microphone-slash
+	</li>
+	<li>
+		<i class="ace-icon fa fa-shield"></i>
+		 fa fa-shield
+	</li>
+	<li>
+		<i class="ace-icon fa fa-calendar-o"></i>
+		 fa fa-calendar-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-fire-extinguisher"></i>
+		 fa fa-fire-extinguisher
+	</li>
+	<li>
+		<i class="ace-icon fa fa-rocket"></i>
+		 fa fa-rocket
+	</li>
+	<li>
+		<i class="ace-icon fa fa-maxcdn"></i>
+		 fa fa-maxcdn
+	</li>
+	<li>
+		<i class="ace-icon fa fa-chevron-circle-left"></i>
+		 fa fa-chevron-circle-left
+	</li>
+	<li>
+		<i class="ace-icon fa fa-chevron-circle-right"></i>
+		 fa fa-chevron-circle-right
+	</li>
+	<li>
+		<i class="ace-icon fa fa-chevron-circle-up"></i>
+		 fa fa-chevron-circle-up
+	</li>
+	<li>
+		<i class="ace-icon fa fa-chevron-circle-down"></i>
+		 fa fa-chevron-circle-down
+	</li>
+	<li>
+		<i class="ace-icon fa fa-html5"></i>
+		 fa fa-html5
+	</li>
+	<li>
+		<i class="ace-icon fa fa-css3"></i>
+		 fa fa-css3
+	</li>
+	<li>
+		<i class="ace-icon fa fa-anchor"></i>
+		 fa fa-anchor
+	</li>
+	<li>
+		<i class="ace-icon fa fa-unlock-alt"></i>
+		 fa fa-unlock-alt
+	</li>
+	<li>
+		<i class="ace-icon fa fa-bullseye"></i>
+		 fa fa-bullseye
+	</li>
+	<li>
+		<i class="ace-icon fa fa-ellipsis-h"></i>
+		 fa fa-ellipsis-h
+	</li>
+	<li>
+		<i class="ace-icon fa fa-ellipsis-v"></i>
+		 fa fa-ellipsis-v
+	</li>
+	<li>
+		<i class="ace-icon fa fa-rss-square"></i>
+		 fa fa-rss-square
+	</li>
+	<li>
+		<i class="ace-icon fa fa-play-circle"></i>
+		 fa fa-play-circle
+	</li>
+	<li>
+		<i class="ace-icon fa fa-ticket"></i>
+		 fa fa-ticket
+	</li>
+	<li>
+		<i class="ace-icon fa fa-minus-square"></i>
+		 fa fa-minus-square
+	</li>
+	<li>
+		<i class="ace-icon fa fa-minus-square-o"></i>
+		 fa fa-minus-square-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-level-up"></i>
+		 fa fa-level-up
+	</li>
+	<li>
+		<i class="ace-icon fa fa-level-down"></i>
+		 fa fa-level-down
+	</li>
+	<li>
+		<i class="ace-icon fa fa-check-square"></i>
+		 fa fa-check-square
+	</li>
+	<li>
+		<i class="ace-icon fa fa-pencil-square"></i>
+		 fa fa-pencil-square
+	</li>
+	<li>
+		<i class="ace-icon fa fa-external-link-square"></i>
+		 fa fa-external-link-square
+	</li>
+	<li>
+		<i class="ace-icon fa fa-share-square"></i>
+		 fa fa-share-square
+	</li>
+	<li>
+		<i class="ace-icon fa fa-compass"></i>
+		 fa fa-compass
+	</li>
+	<li>
+		<i class="ace-icon fa fa-caret-square-o-down"></i>
+		 fa fa-caret-square-o-down
+	</li>
+	<li>
+		<i class="ace-icon fa fa-caret-square-o-up"></i>
+		 fa fa-caret-square-o-up
+	</li>
+	<li>
+		<i class="ace-icon fa fa-caret-square-o-right"></i>
+		 fa fa-caret-square-o-right
+	</li>
+	<li>
+		<i class="ace-icon fa fa-eur"></i>
+		 fa fa-eur
+	</li>
+	<li>
+		<i class="ace-icon fa fa-gbp"></i>
+		 fa fa-gbp
+	</li>
+	<li>
+		<i class="ace-icon fa fa-usd"></i>
+		 fa fa-usd
+	</li>
+	<li>
+		<i class="ace-icon fa fa-inr"></i>
+		 fa fa-inr
+	</li>
+	<li>
+		<i class="ace-icon fa fa-jpy"></i>
+		 fa fa-jpy
+	</li>
+	<li>
+		<i class="ace-icon fa fa-rub"></i>
+		 fa fa-rub
+	</li>
+	<li>
+		<i class="ace-icon fa fa-krw"></i>
+		 fa fa-krw
+	</li>
+	<li>
+		<i class="ace-icon fa fa-btc"></i>
+		 fa fa-btc
+	</li>
+	<li>
+		<i class="ace-icon fa fa-file"></i>
+		 fa fa-file
+	</li>
+	<li>
+		<i class="ace-icon fa fa-file-text"></i>
+		 fa fa-file-text
+	</li>
+	<li>
+		<i class="ace-icon fa fa-sort-alpha-asc"></i>
+		 fa fa-sort-alpha-asc
+	</li>
+	<li>
+		<i class="ace-icon fa fa-sort-alpha-desc"></i>
+		 fa fa-sort-alpha-desc
+	</li>
+	<li>
+		<i class="ace-icon fa fa-sort-amount-asc"></i>
+		 fa fa-sort-amount-asc
+	</li>
+	<li>
+		<i class="ace-icon fa fa-sort-amount-desc"></i>
+		 fa fa-sort-amount-desc
+	</li>
+	<li>
+		<i class="ace-icon fa fa-sort-numeric-asc"></i>
+		 fa fa-sort-numeric-asc
+	</li>
+	<li>
+		<i class="ace-icon fa fa-sort-numeric-desc"></i>
+		 fa fa-sort-numeric-desc
+	</li>
+	<li>
+		<i class="ace-icon fa fa-thumbs-up"></i>
+		 fa fa-thumbs-up
+	</li>
+	<li>
+		<i class="ace-icon fa fa-thumbs-down"></i>
+		 fa fa-thumbs-down
+	</li>
+	<li>
+		<i class="ace-icon fa fa-youtube-square"></i>
+		 fa fa-youtube-square
+	</li>
+	<li>
+		<i class="ace-icon fa fa-youtube"></i>
+		 fa fa-youtube
+	</li>
+	<li>
+		<i class="ace-icon fa fa-xing"></i>
+		 fa fa-xing
+	</li>
+	<li>
+		<i class="ace-icon fa fa-xing-square"></i>
+		 fa fa-xing-square
+	</li>
+	<li>
+		<i class="ace-icon fa fa-youtube-play"></i>
+		 fa fa-youtube-play
+	</li>
+	<li>
+		<i class="ace-icon fa fa-dropbox"></i>
+		 fa fa-dropbox
+	</li>
+	<li>
+		<i class="ace-icon fa fa-stack-overflow"></i>
+		 fa fa-stack-overflow
+	</li>
+	<li>
+		<i class="ace-icon fa fa-instagram"></i>
+		 fa fa-instagram
+	</li>
+	<li>
+		<i class="ace-icon fa fa-flickr"></i>
+		 fa fa-flickr
+	</li>
+	<li>
+		<i class="ace-icon fa fa-adn"></i>
+		 fa fa-adn
+	</li>
+	<li>
+		<i class="ace-icon fa fa-bitbucket"></i>
+		 fa fa-bitbucket
+	</li>
+	<li>
+		<i class="ace-icon fa fa-bitbucket-square"></i>
+		 fa fa-bitbucket-square
+	</li>
+	<li>
+		<i class="ace-icon fa fa-tumblr"></i>
+		 fa fa-tumblr
+	</li>
+	<li>
+		<i class="ace-icon fa fa-tumblr-square"></i>
+		 fa fa-tumblr-square
+	</li>
+	<li>
+		<i class="ace-icon fa fa-long-arrow-down"></i>
+		 fa fa-long-arrow-down
+	</li>
+	<li>
+		<i class="ace-icon fa fa-long-arrow-up"></i>
+		 fa fa-long-arrow-up
+	</li>
+	<li>
+		<i class="ace-icon fa fa-long-arrow-left"></i>
+		 fa fa-long-arrow-left
+	</li>
+	<li>
+		<i class="ace-icon fa fa-long-arrow-right"></i>
+		 fa fa-long-arrow-right
+	</li>
+	<li>
+		<i class="ace-icon fa fa-apple"></i>
+		 fa fa-apple
+	</li>
+	<li>
+		<i class="ace-icon fa fa-windows"></i>
+		 fa fa-windows
+	</li>
+	<li>
+		<i class="ace-icon fa fa-android"></i>
+		 fa fa-android
+	</li>
+	<li>
+		<i class="ace-icon fa fa-linux"></i>
+		 fa fa-linux
+	</li>
+	<li>
+		<i class="ace-icon fa fa-dribbble"></i>
+		 fa fa-dribbble
+	</li>
+	<li>
+		<i class="ace-icon fa fa-skype"></i>
+		 fa fa-skype
+	</li>
+	<li>
+		<i class="ace-icon fa fa-foursquare"></i>
+		 fa fa-foursquare
+	</li>
+	<li>
+		<i class="ace-icon fa fa-trello"></i>
+		 fa fa-trello
+	</li>
+	<li>
+		<i class="ace-icon fa fa-female"></i>
+		 fa fa-female
+	</li>
+	<li>
+		<i class="ace-icon fa fa-male"></i>
+		 fa fa-male
+	</li>
+	<li>
+		<i class="ace-icon fa fa-gratipay"></i>
+		 fa fa-gratipay
+	</li>
+	<li>
+		<i class="ace-icon fa fa-sun-o"></i>
+		 fa fa-sun-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-moon-o"></i>
+		 fa fa-moon-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-archive"></i>
+		 fa fa-archive
+	</li>
+	<li>
+		<i class="ace-icon fa fa-bug"></i>
+		 fa fa-bug
+	</li>
+	<li>
+		<i class="ace-icon fa fa-vk"></i>
+		 fa fa-vk
+	</li>
+	<li>
+		<i class="ace-icon fa fa-weibo"></i>
+		 fa fa-weibo
+	</li>
+	<li>
+		<i class="ace-icon fa fa-renren"></i>
+		 fa fa-renren
+	</li>
+	<li>
+		<i class="ace-icon fa fa-pagelines"></i>
+		 fa fa-pagelines
+	</li>
+	<li>
+		<i class="ace-icon fa fa-stack-exchange"></i>
+		 fa fa-stack-exchange
+	</li>
+	<li>
+		<i class="ace-icon fa fa-arrow-circle-o-right"></i>
+		 fa fa-arrow-circle-o-right
+	</li>
+	<li>
+		<i class="ace-icon fa fa-arrow-circle-o-left"></i>
+		 fa fa-arrow-circle-o-left
+	</li>
+	<li>
+		<i class="ace-icon fa fa-caret-square-o-left"></i>
+		 fa fa-caret-square-o-left
+	</li>
+	<li>
+		<i class="ace-icon fa fa-dot-circle-o"></i>
+		 fa fa-dot-circle-o
+	</li>
+	<li>
+		<i class="ace-icon fa fa-wheelchair"></i>
+		 fa fa-wheelchair
+	</li>
+	<li>
+		<i class="ace-icon fa fa-vimeo-square"></i>
+		 fa fa-vimeo-square
+	</li>
+	<li>
+		<i class="ace-icon fa fa-try"></i>
+		 fa fa-try
+	</li>
+	<li>
+		<i class="ace-icon fa fa-plus-square-o"></i>
+		 fa fa-plus-square-o
+	</li>
+
+
+	<li>
+		<i class="ace-icon glyphicon glyphicon-asterisk"></i>
+		 glyphicon glyphicon-asterisk
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-plus"></i>
+		 glyphicon glyphicon-plus
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-euro"></i>
+		 glyphicon glyphicon-euro
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-eur"></i>
+		 glyphicon glyphicon-eur
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-minus"></i>
+		 glyphicon glyphicon-minus
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-cloud"></i>
+		 glyphicon glyphicon-cloud
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-envelope"></i>
+		 glyphicon glyphicon-envelope
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-pencil"></i>
+		 glyphicon glyphicon-pencil
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-glass"></i>
+		 glyphicon glyphicon-glass
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-music"></i>
+		 glyphicon glyphicon-music
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-search"></i>
+		 glyphicon glyphicon-search
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-heart"></i>
+		 glyphicon glyphicon-heart
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-star"></i>
+		 glyphicon glyphicon-star
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-star-empty"></i>
+		 glyphicon glyphicon-star-empty
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-user"></i>
+		 glyphicon glyphicon-user
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-film"></i>
+		 glyphicon glyphicon-film
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-th-large"></i>
+		 glyphicon glyphicon-th-large
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-th"></i>
+		 glyphicon glyphicon-th
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-th-list"></i>
+		 glyphicon glyphicon-th-list
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-ok"></i>
+		 glyphicon glyphicon-ok
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-remove"></i>
+		 glyphicon glyphicon-remove
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-zoom-in"></i>
+		 glyphicon glyphicon-zoom-in
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-zoom-out"></i>
+		 glyphicon glyphicon-zoom-out
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-off"></i>
+		 glyphicon glyphicon-off
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-signal"></i>
+		 glyphicon glyphicon-signal
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-cog"></i>
+		 glyphicon glyphicon-cog
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-trash"></i>
+		 glyphicon glyphicon-trash
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-home"></i>
+		 glyphicon glyphicon-home
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-file"></i>
+		 glyphicon glyphicon-file
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-time"></i>
+		 glyphicon glyphicon-time
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-road"></i>
+		 glyphicon glyphicon-road
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-download-alt"></i>
+		 glyphicon glyphicon-download-alt
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-download"></i>
+		 glyphicon glyphicon-download
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-upload"></i>
+		 glyphicon glyphicon-upload
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-inbox"></i>
+		 glyphicon glyphicon-inbox
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-play-circle"></i>
+		 glyphicon glyphicon-play-circle
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-repeat"></i>
+		 glyphicon glyphicon-repeat
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-refresh"></i>
+		 glyphicon glyphicon-refresh
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-list-alt"></i>
+		 glyphicon glyphicon-list-alt
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-lock"></i>
+		 glyphicon glyphicon-lock
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-flag"></i>
+		 glyphicon glyphicon-flag
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-headphones"></i>
+		 glyphicon glyphicon-headphones
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-volume-off"></i>
+		 glyphicon glyphicon-volume-off
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-volume-down"></i>
+		 glyphicon glyphicon-volume-down
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-volume-up"></i>
+		 glyphicon glyphicon-volume-up
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-qrcode"></i>
+		 glyphicon glyphicon-qrcode
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-barcode"></i>
+		 glyphicon glyphicon-barcode
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-tag"></i>
+		 glyphicon glyphicon-tag
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-tags"></i>
+		 glyphicon glyphicon-tags
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-book"></i>
+		 glyphicon glyphicon-book
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-bookmark"></i>
+		 glyphicon glyphicon-bookmark
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-print"></i>
+		 glyphicon glyphicon-print
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-camera"></i>
+		 glyphicon glyphicon-camera
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-font"></i>
+		 glyphicon glyphicon-font
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-bold"></i>
+		 glyphicon glyphicon-bold
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-italic"></i>
+		 glyphicon glyphicon-italic
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-text-height"></i>
+		 glyphicon glyphicon-text-height
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-text-width"></i>
+		 glyphicon glyphicon-text-width
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-align-left"></i>
+		 glyphicon glyphicon-align-left
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-align-center"></i>
+		 glyphicon glyphicon-align-center
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-align-right"></i>
+		 glyphicon glyphicon-align-right
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-align-justify"></i>
+		 glyphicon glyphicon-align-justify
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-list"></i>
+		 glyphicon glyphicon-list
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-indent-left"></i>
+		 glyphicon glyphicon-indent-left
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-indent-right"></i>
+		 glyphicon glyphicon-indent-right
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-facetime-video"></i>
+		 glyphicon glyphicon-facetime-video
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-picture"></i>
+		 glyphicon glyphicon-picture
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-map-marker"></i>
+		 glyphicon glyphicon-map-marker
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-adjust"></i>
+		 glyphicon glyphicon-adjust
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-tint"></i>
+		 glyphicon glyphicon-tint
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-edit"></i>
+		 glyphicon glyphicon-edit
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-share"></i>
+		 glyphicon glyphicon-share
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-check"></i>
+		 glyphicon glyphicon-check
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-move"></i>
+		 glyphicon glyphicon-move
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-step-backward"></i>
+		 glyphicon glyphicon-step-backward
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-fast-backward"></i>
+		 glyphicon glyphicon-fast-backward
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-backward"></i>
+		 glyphicon glyphicon-backward
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-play"></i>
+		 glyphicon glyphicon-play
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-pause"></i>
+		 glyphicon glyphicon-pause
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-stop"></i>
+		 glyphicon glyphicon-stop
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-forward"></i>
+		 glyphicon glyphicon-forward
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-fast-forward"></i>
+		 glyphicon glyphicon-fast-forward
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-step-forward"></i>
+		 glyphicon glyphicon-step-forward
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-eject"></i>
+		 glyphicon glyphicon-eject
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-chevron-left"></i>
+		 glyphicon glyphicon-chevron-left
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-chevron-right"></i>
+		 glyphicon glyphicon-chevron-right
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-plus-sign"></i>
+		 glyphicon glyphicon-plus-sign
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-minus-sign"></i>
+		 glyphicon glyphicon-minus-sign
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-remove-sign"></i>
+		 glyphicon glyphicon-remove-sign
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-ok-sign"></i>
+		 glyphicon glyphicon-ok-sign
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-question-sign"></i>
+		 glyphicon glyphicon-question-sign
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-info-sign"></i>
+		 glyphicon glyphicon-info-sign
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-screenshot"></i>
+		 glyphicon glyphicon-screenshot
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-remove-circle"></i>
+		 glyphicon glyphicon-remove-circle
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-ok-circle"></i>
+		 glyphicon glyphicon-ok-circle
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-ban-circle"></i>
+		 glyphicon glyphicon-ban-circle
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-arrow-left"></i>
+		 glyphicon glyphicon-arrow-left
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-arrow-right"></i>
+		 glyphicon glyphicon-arrow-right
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-arrow-up"></i>
+		 glyphicon glyphicon-arrow-up
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-arrow-down"></i>
+		 glyphicon glyphicon-arrow-down
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-share-alt"></i>
+		 glyphicon glyphicon-share-alt
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-resize-full"></i>
+		 glyphicon glyphicon-resize-full
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-resize-small"></i>
+		 glyphicon glyphicon-resize-small
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-exclamation-sign"></i>
+		 glyphicon glyphicon-exclamation-sign
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-gift"></i>
+		 glyphicon glyphicon-gift
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-leaf"></i>
+		 glyphicon glyphicon-leaf
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-fire"></i>
+		 glyphicon glyphicon-fire
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-eye-open"></i>
+		 glyphicon glyphicon-eye-open
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-eye-close"></i>
+		 glyphicon glyphicon-eye-close
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-warning-sign"></i>
+		 glyphicon glyphicon-warning-sign
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-plane"></i>
+		 glyphicon glyphicon-plane
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-calendar"></i>
+		 glyphicon glyphicon-calendar
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-random"></i>
+		 glyphicon glyphicon-random
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-comment"></i>
+		 glyphicon glyphicon-comment
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-magnet"></i>
+		 glyphicon glyphicon-magnet
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-chevron-up"></i>
+		 glyphicon glyphicon-chevron-up
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-chevron-down"></i>
+		 glyphicon glyphicon-chevron-down
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-retweet"></i>
+		 glyphicon glyphicon-retweet
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-shopping-cart"></i>
+		 glyphicon glyphicon-shopping-cart
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-folder-close"></i>
+		 glyphicon glyphicon-folder-close
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-folder-open"></i>
+		 glyphicon glyphicon-folder-open
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-resize-vertical"></i>
+		 glyphicon glyphicon-resize-vertical
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-resize-horizontal"></i>
+		 glyphicon glyphicon-resize-horizontal
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-hdd"></i>
+		 glyphicon glyphicon-hdd
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-bullhorn"></i>
+		 glyphicon glyphicon-bullhorn
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-bell"></i>
+		 glyphicon glyphicon-bell
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-certificate"></i>
+		 glyphicon glyphicon-certificate
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-thumbs-up"></i>
+		 glyphicon glyphicon-thumbs-up
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-thumbs-down"></i>
+		 glyphicon glyphicon-thumbs-down
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-hand-right"></i>
+		 glyphicon glyphicon-hand-right
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-hand-left"></i>
+		 glyphicon glyphicon-hand-left
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-hand-up"></i>
+		 glyphicon glyphicon-hand-up
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-hand-down"></i>
+		 glyphicon glyphicon-hand-down
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-circle-arrow-right"></i>
+		 glyphicon glyphicon-circle-arrow-right
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-circle-arrow-left"></i>
+		 glyphicon glyphicon-circle-arrow-left
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-circle-arrow-up"></i>
+		 glyphicon glyphicon-circle-arrow-up
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-circle-arrow-down"></i>
+		 glyphicon glyphicon-circle-arrow-down
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-globe"></i>
+		 glyphicon glyphicon-globe
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-wrench"></i>
+		 glyphicon glyphicon-wrench
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-tasks"></i>
+		 glyphicon glyphicon-tasks
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-filter"></i>
+		 glyphicon glyphicon-filter
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-briefcase"></i>
+		 glyphicon glyphicon-briefcase
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-fullscreen"></i>
+		 glyphicon glyphicon-fullscreen
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-dashboard"></i>
+		 glyphicon glyphicon-dashboard
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-paperclip"></i>
+		 glyphicon glyphicon-paperclip
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-heart-empty"></i>
+		 glyphicon glyphicon-heart-empty
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-link"></i>
+		 glyphicon glyphicon-link
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-phone"></i>
+		 glyphicon glyphicon-phone
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-pushpin"></i>
+		 glyphicon glyphicon-pushpin
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-usd"></i>
+		 glyphicon glyphicon-usd
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-gbp"></i>
+		 glyphicon glyphicon-gbp
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-sort"></i>
+		 glyphicon glyphicon-sort
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-sort-by-alphabet"></i>
+		 glyphicon glyphicon-sort-by-alphabet
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-sort-by-alphabet-alt"></i>
+		 glyphicon glyphicon-sort-by-alphabet-alt
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-sort-by-order"></i>
+		 glyphicon glyphicon-sort-by-order
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-sort-by-order-alt"></i>
+		 glyphicon glyphicon-sort-by-order-alt
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-sort-by-attributes"></i>
+		 glyphicon glyphicon-sort-by-attributes
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-sort-by-attributes-alt"></i>
+		 glyphicon glyphicon-sort-by-attributes-alt
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-unchecked"></i>
+		 glyphicon glyphicon-unchecked
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-expand"></i>
+		 glyphicon glyphicon-expand
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-collapse-down"></i>
+		 glyphicon glyphicon-collapse-down
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-collapse-up"></i>
+		 glyphicon glyphicon-collapse-up
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-log-in"></i>
+		 glyphicon glyphicon-log-in
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-flash"></i>
+		 glyphicon glyphicon-flash
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-log-out"></i>
+		 glyphicon glyphicon-log-out
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-new-window"></i>
+		 glyphicon glyphicon-new-window
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-record"></i>
+		 glyphicon glyphicon-record
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-save"></i>
+		 glyphicon glyphicon-save
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-open"></i>
+		 glyphicon glyphicon-open
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-saved"></i>
+		 glyphicon glyphicon-saved
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-import"></i>
+		 glyphicon glyphicon-import
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-export"></i>
+		 glyphicon glyphicon-export
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-send"></i>
+		 glyphicon glyphicon-send
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-floppy-disk"></i>
+		 glyphicon glyphicon-floppy-disk
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-floppy-saved"></i>
+		 glyphicon glyphicon-floppy-saved
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-floppy-remove"></i>
+		 glyphicon glyphicon-floppy-remove
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-floppy-save"></i>
+		 glyphicon glyphicon-floppy-save
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-floppy-open"></i>
+		 glyphicon glyphicon-floppy-open
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-credit-card"></i>
+		 glyphicon glyphicon-credit-card
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-transfer"></i>
+		 glyphicon glyphicon-transfer
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-cutlery"></i>
+		 glyphicon glyphicon-cutlery
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-header"></i>
+		 glyphicon glyphicon-header
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-compressed"></i>
+		 glyphicon glyphicon-compressed
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-earphone"></i>
+		 glyphicon glyphicon-earphone
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-phone-alt"></i>
+		 glyphicon glyphicon-phone-alt
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-tower"></i>
+		 glyphicon glyphicon-tower
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-stats"></i>
+		 glyphicon glyphicon-stats
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-sd-video"></i>
+		 glyphicon glyphicon-sd-video
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-hd-video"></i>
+		 glyphicon glyphicon-hd-video
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-subtitles"></i>
+		 glyphicon glyphicon-subtitles
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-sound-stereo"></i>
+		 glyphicon glyphicon-sound-stereo
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-sound-dolby"></i>
+		 glyphicon glyphicon-sound-dolby
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-sound-5-1"></i>
+		 glyphicon glyphicon-sound-5-1
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-sound-6-1"></i>
+		 glyphicon glyphicon-sound-6-1
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-sound-7-1"></i>
+		 glyphicon glyphicon-sound-7-1
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-copyright-mark"></i>
+		 glyphicon glyphicon-copyright-mark
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-registration-mark"></i>
+		 glyphicon glyphicon-registration-mark
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-cloud-download"></i>
+		 glyphicon glyphicon-cloud-download
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-cloud-upload"></i>
+		 glyphicon glyphicon-cloud-upload
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-tree-conifer"></i>
+		 glyphicon glyphicon-tree-conifer
+	</li>
+	<li>
+		<i class="ace-icon glyphicon glyphicon-tree-deciduous"></i>
+		 glyphicon glyphicon-tree-deciduous
+	</li>
+</icons>

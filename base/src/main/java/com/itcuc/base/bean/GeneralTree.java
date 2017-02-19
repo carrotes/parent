@@ -7,6 +7,6 @@ import com.itcuc.base.entity.Function;
 
 public interface GeneralTree<T> {
 	
-	public List<Map<String,Object>> createTree(List<T> list);
+	public List<Map<String,T>> createTree(List<T> list);
 
 }

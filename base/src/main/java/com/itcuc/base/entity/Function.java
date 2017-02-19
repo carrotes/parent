@@ -13,6 +13,7 @@ public class Function implements Serializable {
 	private String functionUrl;
 	private String functionIcon;
 	private Integer functionSortNum;
+	private Integer functionDisabled;
 	private Timestamp createTime;
 	private Timestamp modifyTime;
 	private String parentFunctionId;
@@ -36,6 +37,16 @@ public class Function implements Serializable {
 		this.modifyTime = modifyTime;
 		this.parentFunctionId = parentFunctionId;
 		this.deleteFlag = deleteFlag;
+	}
+
+	
+
+	public Integer getFunctionDisabled() {
+		return functionDisabled;
+	}
+
+	public void setFunctionDisabled(Integer functionDisabled) {
+		this.functionDisabled = functionDisabled;
 	}
 
 	public Integer getFunctionSortNum() {

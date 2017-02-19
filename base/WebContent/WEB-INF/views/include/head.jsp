@@ -21,7 +21,21 @@
 <link rel="stylesheet" href="${ctxStatic}/assets/css/font-awesome.css" />
 
 <!-- page specific plugin styles -->
+<link rel="stylesheet" href="${ctxStatic}/assets/css/jquery-ui.custom.css" />
+<link rel="stylesheet" href="${ctxStatic}/assets/css/chosen.css" />
+<link rel="stylesheet" href="${ctxStatic}/assets/css/datepicker.css" />
+<link rel="stylesheet" href="${ctxStatic}/assets/css/bootstrap-timepicker.css" />
+<link rel="stylesheet" href="${ctxStatic}/assets/css/daterangepicker.css" />
+<link rel="stylesheet" href="${ctxStatic}/assets/css/bootstrap-datetimepicker.css" />
+<link rel="stylesheet" href="${ctxStatic}/assets/css/colorpicker.css" />
 
+
+
+<link rel="stylesheet"
+	href="${ctxStatic}/assets/css/bootstrap-duallistbox.css" />
+<link rel="stylesheet"
+	href="${ctxStatic}/assets/css/bootstrap-multiselect.css" />
+<link rel="stylesheet" href="${ctxStatic}/assets/css/select2.css" />
 <!-- text fonts -->
 <link rel="stylesheet" href="${ctxStatic}/assets/css/ace-fonts.css" />
 
@@ -29,7 +43,11 @@
 <link rel="stylesheet" href="${ctxStatic}/assets/css/ace.css"
 	class="ace-main-stylesheet" id="main-ace-style" />
 <link rel="stylesheet" href="${ctxStatic}/assets/css/ace-rtl.css" />
+<link rel="stylesheet" href="${ctxBase}/loading/com.itcuc.spinner.css" />
 <script src='${ctxBase}/lib/jquery.js'></script>
+<script src='${ctxBase}/lib/jquery.form.js'></script>
+<script src="${ctxBase}/loading/com.itcuc.spinner.js"></script>
+
 <!--[if lte IE 9]>
 			<link rel="stylesheet" href="${ctxStatic}/assets/css/ace-part2.css" class="ace-main-stylesheet" />
 		<![endif]-->
